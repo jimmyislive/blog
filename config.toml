@@ -1,0 +1,15 @@
+baseurl = "https://jimmyislive.dev"
+languageCode = "en"
+title = "@jimmyislive"
+theme = "tale-hugo"
+disqusShortname = ""
+googleAnalytics = ""
+enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+author = "Jimmy John"
+
+[blackfriday]
+   plainIDAnchors = true
+   hrefTargetBlank = true  
