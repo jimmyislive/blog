@@ -1,6 +1,6 @@
 ---
 title: "Populating go vars at build time"
-date: 2019-03-11T20:54:45-08:00
+date: 2019-03-12T20:54:45-08:00
 draft: false
 tags: ["golang"]
 ---
