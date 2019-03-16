@@ -16,4 +16,4 @@ In a former life, I founded and sold [CodeEval](https://techcrunch.com/2012/08/0
 
 This blog is created via the awesome [Hugo](https://gohugo.io/) framework. It is hosted by [Netlify](https://www.netlify.com/). All the code for this site is available on [Github](https://github.com/jimmyislive/blog).
 
-This is my personal blog. (Views expressed here are my own)
+This is my personal blog. (Views expressed here are my own). It is an attempt to open source my knowledge.
