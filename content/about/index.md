@@ -14,6 +14,6 @@ My interests revolve around technology, health & nutrition and self-awareness.
 In a former life, I founded and sold [CodeEval](https://techcrunch.com/2012/08/02/hirevue-acquires-codeeval-a-programmer-evaluation-tool-for-recruiters/).
 
 
-I used to have an older blog [here](https://jimmyislive.tumblr.com/). This blog is created via the awesome [Hugo](https://gohugo.io/) framework. It is hosted by [Netlify](https://www.netlify.com/). All the code for this site is available on [Github](https://github.com/jimmyislive/blog).
+This blog is created via the awesome [Hugo](https://gohugo.io/) framework. It is hosted by [Netlify](https://www.netlify.com/). All the code for this site is available on [Github](https://github.com/jimmyislive/blog).
 
 This is my personal blog. (Views expressed here are my own)

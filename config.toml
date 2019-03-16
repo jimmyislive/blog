@@ -10,6 +10,9 @@ enableRobotsTXT = true
 [params]
 author = "Jimmy John"
 
+[taxonomies]
+  tag = "tags"
+  
 [blackfriday]
    plainIDAnchors = true
    hrefTargetBlank = true  
