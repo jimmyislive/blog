@@ -6,13 +6,14 @@ disqusShortname = ""
 googleAnalytics = ""
 enableEmoji = true
 enableRobotsTXT = true
+preserveTaxonomyNames = true
 
 [params]
 author = "Jimmy John"
 
 [taxonomies]
   tag = "tags"
-  
+
 [blackfriday]
    plainIDAnchors = true
    hrefTargetBlank = true  
