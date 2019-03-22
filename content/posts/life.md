@@ -1,6 +1,6 @@
 ---
 title: "Life..."
-date: 2019-03-22T13:00:00-08:00
+date: 2019-03-22T13:00:00
 draft: false
 tags: ["self-awareness"]
 ---
