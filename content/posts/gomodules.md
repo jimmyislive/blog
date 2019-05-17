@@ -210,15 +210,3 @@ Let's try using the library we just created. Following similar steps as above:
     Thus the `go.mod` controls which version of dependencies are used thereby giving us reliable and verifiable builds.
 
 Hopefully this tutorial has helped you understand Go modules better. Starting in Go 1.13 (August 2019) module mode will be enabled by default. The new features seem very promising and I for one am eager to start using Go modules more often.
-
-
-
-
-    
-
-
-
-
-
-
-
