@@ -18,4 +18,3 @@ This blog is created via the awesome [Hugo](https://gohugo.io/) framework. It is
 
 This is my personal blog. (Views expressed here are my own). It is an attempt to open source my knowledge.
 
-"Knowledge is freely given, effort is charged for" - Me
