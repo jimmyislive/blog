@@ -9,6 +9,8 @@ Many people, businesses don't need a dynamic website. they just need a placehold
 This post provides scripts for automating it via [Terraform](https://www.terraform.io/).
 
 **NOTE**: One thing to remember is that aws [does not support https for static websites](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteEndpoints.html). If that is important to you (and it should be!) use other providers such as [Netlify](https://www.netlify.com/) for your static needs.
+    
+  (*A reader pointed out that this is not entirely correct. Actually you can have https by fronting your static site via cloudfront / route53. For the curious, [here is an aws knowledge base article](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/) that can help you do it. Automating this into the terraform manifests listed on this post is left as an exercise for the reader.*)
 
 We will be using a `Makefile` as a top level interface for everything. So all you have to do to bring up a static site should be:
 
