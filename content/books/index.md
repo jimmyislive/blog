@@ -9,7 +9,13 @@ keywords: [books]
 draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
- 
+
+* [How to Change Your Mind - Michael Pollan](https://www.amazon.com/Change-Your-Mind-Consciousness-Transcendence/dp/1594204225) - 07/2019
+
+
+* [Influence: The Psychology of Persuation - Robert Cialdini](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X) - 06/2019
+
+
 * [The Circadian Code - Satchin Panda](https://www.amazon.com/dp/B07BVF1Z6Z/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 
     >A very revealing book about all the biological clocks in your body and how they work, which has a direct effect on your overall health. Anecdotally, I can confirm several of my suspicions related to my health after reading this book e.g. bad sleeping habits which sometimes made me feel tired even after waking up in the morn. This book does a good job of revealing the science behind the way our body clocks work and how with relatively simple changes in our schedule / habits we can make vast improvements in health. Will be trying out several of the recommendations in this book.
