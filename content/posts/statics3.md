@@ -12,6 +12,9 @@ This post provides scripts for automating it via [Terraform](https://www.terrafo
     
   (*A reader pointed out that this is not entirely correct. Actually you can have https by fronting your static site via cloudfront / route53. For the curious, [here is an aws knowledge base article](https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-https-requests-s3/) that can help you do it. Automating this into the terraform manifests listed on this post is left as an exercise for the reader.*)
 
+  NOTE: [You cannot request a certificate for Amazon-owned domain names such as those ending in amazonaws.com, cloudfront.net, or elasticbeanstalk.com.](https://docs.aws.amazon.com/acm/latest/userguide/troubleshooting-requests.html#failed-additional-verification-required) i.e. if you use a vanilla static domain name ending in *.amazonaws.com and not a CNAME with cloudfront, you will not be able to use https even with cloudfront.
+
+
 We will be using a `Makefile` as a top level interface for everything. So all you have to do to bring up a static site should be:
 
 {{< highlight makefile >}}
