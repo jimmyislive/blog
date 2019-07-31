@@ -8,6 +8,6 @@ Recently I learnt morse code. It was pretty easy to translate characters to dot/
 
 If anyone wants to play with it, it is available at [text2morse.jimmyislive.dev](https://text2morse.jimmyislive.dev)
 
-The site is hosted by Netlify and the backend is built using [terraform](https://www.terraform.io/), [api-gateway](https://aws.amazon.com/api-gateway/) and (aws lambda)[https://aws.amazon.com/lambda/].
+The site is hosted by Netlify and the backend is built using [terraform](https://www.terraform.io/), [api-gateway](https://aws.amazon.com/api-gateway/) and [aws lambda](https://aws.amazon.com/lambda/).
 
 Enjoy !
