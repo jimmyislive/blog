@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Free to Choose - Milton/Rose Friedman](https://www.amazon.com/Free-Choose-Statement-Milton-Friedman/dp/0156334607) - 11/2019
+
 * [Siddhartha - Hermann Hesse](https://www.amazon.com/Siddhartha-Novel-Hermann-Hesse/dp/0553208845) - 10/2019
 
 * [Why We Sleep - Matthew Walker](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316) - 09/2019
