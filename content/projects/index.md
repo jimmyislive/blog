@@ -12,6 +12,6 @@ draft: false
 
     >A command line client to query Common Vulnerabilities and Exposures (CVE)
 
-* [Morse Code to Text](https://text2morse.jimmyislive.dev)
+* [Text to Morse Code](https://text2morse.jimmyislive.dev)
 
-    >Converts morse code to text and vice-versa. Some characters like the quotation mark("") is not supported in this implementation.
+    >Converts text to morse code and vice-versa. Some characters like the quotation mark("") is not supported in this implementation.
