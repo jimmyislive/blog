@@ -8,9 +8,13 @@ categories: []
 draft: false
 ---
 
+* [BioHacks](https://biohacks.jimmyislive.dev)
+
+    >Utilities for bio chemists (or others) to play around with DNA sequences.
+
 * [GoCVE](https://github.com/jimmyislive/gocve)
 
-    >A command line client to query Common Vulnerabilities and Exposures (CVE)
+    >A command line client to query Common Vulnerabilities and Exposures (CVE).
 
 * [Text to Morse Code](https://text2morse.jimmyislive.dev)
 
