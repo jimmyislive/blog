@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [The Gene: An Intimate History - Siddhartha Mukherjee](https://www.amazon.com/Gene-Intimate-History-Siddhartha-Mukherjee/dp/1432837818) - 04/2020
+
 * [Misguided Medicine - Colin E Champ](https://www.amazon.com/Misguided-Medicine-Second-Colin-Champ/dp/0692629300) - 12/2019
 
 * [Free to Choose - Milton/Rose Friedman](https://www.amazon.com/Free-Choose-Statement-Milton-Friedman/dp/0156334607) - 11/2019
