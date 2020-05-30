@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [AI Superpowers: China, Silicon Valley and the New World Order - Kai-Fu Lee](https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X) - 05/2020
+
 * [The Gene: An Intimate History - Siddhartha Mukherjee](https://www.amazon.com/Gene-Intimate-History-Siddhartha-Mukherjee/dp/1432837818) - 04/2020
 
 * [Misguided Medicine - Colin E Champ](https://www.amazon.com/Misguided-Medicine-Second-Colin-Champ/dp/0692629300) - 12/2019
