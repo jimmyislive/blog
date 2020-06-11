@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [The Art of War - Sun Tzu](https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772) - 06/2020
+
 * [AI Superpowers: China, Silicon Valley and the New World Order - Kai-Fu Lee](https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X) - 05/2020
 
 * [The Gene: An Intimate History - Siddhartha Mukherjee](https://www.amazon.com/Gene-Intimate-History-Siddhartha-Mukherjee/dp/1432837818) - 04/2020
