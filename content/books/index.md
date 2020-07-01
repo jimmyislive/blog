@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Prisoners of Geography - Tim Marshall](https://www.amazon.com/Prisoners-Geography-Explain-Everything-Politics/dp/1501121472/) - 06/2020
+
 * [The Art of War - Sun Tzu](https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772) - 06/2020
 
 * [AI Superpowers: China, Silicon Valley and the New World Order - Kai-Fu Lee](https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X) - 05/2020
