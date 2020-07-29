@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [How Money Became Dangerous - Christopher Varelas](https://www.amazon.com/How-Money-Became-Dangerous-Relationship/dp/0062684752) - 06/2020
+
 * [AI Superpowers: China, Silicon Valley and the New World Order - Kai-Fu Lee](https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X) - 05/2020
 
 * [The Gene: An Intimate History - Siddhartha Mukherjee](https://www.amazon.com/Gene-Intimate-History-Siddhartha-Mukherjee/dp/1432837818) - 04/2020
