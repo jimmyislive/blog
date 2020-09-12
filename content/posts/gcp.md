@@ -400,7 +400,7 @@ acme-prod-lb-ipv4                       35.244.175.20       EXTERNAL            
 acme-prod-lb-ipv6                       2600:1901:0:ee66::  EXTERNAL                                                IN_USE
 {{< / highlight >}}
 
-You can now visit the site atthe IP. Also confirm that the docker container has the env vars we sent in present. Ideally you would put in the private IP of the DB in it, so it's available to the container.
+You can now visit the site at the IP. Also confirm that the docker container has the env vars we sent in present. Ideally you would put in the private IP of the DB in it, so it's available to the container.
 
 
 {{< figure src="/images/nginx.png">}}
