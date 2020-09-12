@@ -58,6 +58,7 @@ Create a new project and set this newly created project as the default. Since th
 
     {{< highlight bash >}}
 
+
     gcloud projects create acme-project-09102020
     gcloud config set project acme-project-09102020
     {{< / highlight >}}
@@ -412,6 +413,6 @@ You can now visit the site at:
 In order to cleanup everything you just did and no longer incur any changes, delete the project:
 
     {{< highlight bash >}}
-    
+
     gcloud delete project acme-project-09102020
     {{< / highlight >}}
