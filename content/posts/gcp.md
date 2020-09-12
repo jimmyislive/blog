@@ -1,5 +1,5 @@
 ---
-title: "End to End on GCP"
+title: "End to End Deployment on GCP"
 date: 2020-09-10
 draft: false
 tags: ["gcp"]
@@ -21,8 +21,8 @@ tags: ["gcp"]
 13. [Populate env vars](#populate-env-vars)
 14. [Push container to gcr](#push-container-to-gcr)
 15. [Create Instance Template](#create-instance-template)
-16. [Create Managed Instance Group (MIG)](#create-managed-instance-group-(mig))
-17. [Create IPv4/IPv6 address](#create-ipv4/ipv6-address)
+16. [Create Managed Instance Group (MIG)](#create-managed-instance-group-mig)
+17. [Create IPv4/IPv6 address](#create-ipv4-ipv6-address)
 18. [Create Backend Service](#create-backend-service)
 19. [Setup Load Balancer](#setup-load-balancer)
 20. [Cleanup](#cleanup)
@@ -37,7 +37,7 @@ This post is about deploying a project on the Google Cloud Platform (GCP). While
 
 ## Assumptions
 
-The following assumptions are made in the following post:
+The following assumptions are made in this post:
 
 1. You have an account on the [Google Cloud Platform](https://console.cloud.google.com/)
 2. You have installed and configured the [gcloud](https://cloud.google.com/sdk/install) tool
@@ -46,19 +46,17 @@ The following assumptions are made in the following post:
 
 ## Architecture
 
-We will set up an end-to-end deployment of a fictional company called Acme Corp. We will run a docker container on a group of machines that is able to talk to a DB i.e. A typical CRUD setup.
+We will set up an end-to-end deployment for a fictional company called Acme Corp. We will run a docker container on a group of machines that is able to talk to a DB i.e. A typical CRUD setup.
 
-The convention we will follow in this tutorial when naming resources is acme-<environment>-<resource type>[-<resource name>]. It can be represented via the following diagram:
+The convention we will follow in this tutorial when naming resources is `acme-{environment}-{resource type}[-{resource name}]`. It can be represented via the following diagram:
 
 {{< figure src="/images/GCPEnd2End.png">}}
 
 ## Create a Project
 
-Create a new project and set this newly created project as the default. Since the project ID/number are unique across google cloud, i'll be adding todays date next to it to make it unique. Change it for yourself as appropriate.
+Create a new project and set this newly created project as the default. Since the project ID/number are unique across google cloud, i'll be adding today's date next to it to make it unique. Change it for yourself as appropriate.
 
     {{< highlight bash >}}
-
-
     gcloud projects create acme-project-09102020
     gcloud config set project acme-project-09102020
     {{< / highlight >}}
@@ -66,15 +64,14 @@ Create a new project and set this newly created project as the default. Since th
 Verify that your project was created:
 
     {{< highlight bash >}}
-
     gcloud projects list
     {{< / highlight >}}
 
-At this point if you want to enable any third part apps e.g. for sending emails, then head to the [Google Marketplace](https://cloud.google.com/marketplace) and enable it.
+At this point if you want to enable any third party apps e.g. for sending emails, then head to the [Google Marketplace](https://cloud.google.com/marketplace) and enable it.
 
 ## Enable APIs
 
-Enable any service APIs you think you will need. You will need to go to your project and [enable billing](https://cloud.google.com/billing/docs/how-to/modify-project) first. A representative sample is show below. (Would not hurt to set the default zone/region as well.)
+Enable any service APIs you think you will need. You will need to go to your project and [enable billing](https://cloud.google.com/billing/docs/how-to/modify-project) first. A representative sample is shown below. (Would not hurt to set the default zone/region as well.)
 
     {{< highlight bash >}}
 
@@ -111,7 +108,7 @@ Confirm it's there:
 
 ## Create Subnets
 
-We will create only one subnet. The CIDR 10.0.0.0/20 can accomodate 4094 hosts, so you should be fine. The flag `enable-private-ip-google-access` is needed to connect to the container registry which houses our docker container.
+We will create only one subnet. The CIDR 10.0.0.0/20 can accommodate 4094 hosts, so you should be fine. The flag `enable-private-ip-google-access` is needed to connect to the container registry which houses our docker container.
 
     {{< highlight bash >}}
 
@@ -164,7 +161,7 @@ Allow health checks from the load balancer (which when created in later steps wi
     --rules=tcp:80,tcp:443
     {{< / highlight >}}
 
-## Private Connection to DB
+## Create Private connection to DBs
 
 Since we will be launching a google cloud postgres DB, we should enable vpc peering b/w our network and the managed service one:
 
@@ -203,7 +200,7 @@ Our instances will have only private IPs, so they need a way to access the inter
 
 ## Create DB
 
-We will be using the google hosted cloud DB (postgres). So lets go ahead and create one. It will have only a private IP (modify the memory/cpu as you see fit):
+We will be using the google hosted cloud DB (postgres). So let's go ahead and create one. It will have only a private IP (modify the memory/cpu as you see fit):
 
     {{< highlight bash >}}
 
@@ -236,7 +233,7 @@ We will be running our app in a docker container. We will be using env vars to s
 
 ## Push container to gcr
 
-This is the container we are actually deploying i.e. our app. For this example we will deploy a simple ngix app that is listening on port that displays a welcome message. Assuming you are logged into your docker hub account:
+This is the container we are actually deploying i.e. our app. For this example we will deploy a simple nginx app that listens on a port that displays a welcome message. Assuming you are logged into your docker hub account:
 
     {{< highlight bash >}}
 
@@ -366,7 +363,7 @@ We need to add a backend service so that we can attach it to a load balancer.
 
 ## Setup Load Balancer
 
-We now create ssl certs, a url map and attach them to a load balancer we creare:
+We now create a url map and attach it to a load balancer:
 
     {{< highlight bash >}}
 
@@ -403,13 +400,16 @@ acme-prod-lb-ipv4                       35.244.175.20       EXTERNAL            
 acme-prod-lb-ipv6                       2600:1901:0:ee66::  EXTERNAL                                                IN_USE
 {{< / highlight >}}
 
-You can now visit the site at: `35.244.175.20`
+You can now visit the site atthe IP. Also confirm that the docker container has the env vars we sent in present. Ideally you would put in the private IP of the DB in it, so it's available to the container.
 
 
 {{< figure src="/images/nginx.png">}}
 
+
+Boom !
+
 ## Cleanup
 
-In order to cleanup everything you just did and no longer incur any changes, delete the project. 
+In order to clean up everything you just did and no longer incur any changes, delete the project. 
 
-Console > Dashboard > <select your project> > Project Settings > Shut Down
+Console > Dashboard > [select your project] > Project Settings > Shut Down
