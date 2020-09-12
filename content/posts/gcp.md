@@ -52,7 +52,7 @@ The convention we will follow in this tutorial when naming resources is acme-<en
 
 {{< figure src="/images/GCPEnd2End.png">}}
 
-## Create a Project (#create-project)
+## Create a Project
 
 Create a new project and set this newly created project as the default. Since the project ID/number are unique across google cloud, i'll be adding todays date next to it to make it unique. Change it for yourself as appropriate.
 
@@ -233,6 +233,7 @@ We will be running our app in a docker container. We will be using env vars to s
     FOO=BAR
     BAZ=QUX
     {{< / highlight >}}
+
 ## Push container to gcr
 
 This is the container we are actually deploying i.e. our app. For this example we will deploy a simple ngix app that is listening on port that displays a welcome message. Assuming you are logged into your docker hub account:
@@ -402,8 +403,7 @@ acme-prod-lb-ipv4                       35.244.175.20       EXTERNAL            
 acme-prod-lb-ipv6                       2600:1901:0:ee66::  EXTERNAL                                                IN_USE
 {{< / highlight >}}
 
-You can now visit the site at:
-    http://35.244.175.20/
+You can now visit the site at: `35.244.175.20`
 
 
 {{< figure src="/images/nginx.png">}}
