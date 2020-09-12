@@ -1,7 +1,7 @@
 ---
 title: "End to End on GCP"
 date: 2020-09-10
-draft: true
+draft: false
 tags: ["gcp"]
 ---
 
