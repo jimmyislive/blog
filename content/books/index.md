@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [The Salt Fix - Dr. James DiNicolantonio](https://www.amazon.com/Salt-Fix-Experts-Wrong-Eating-ebook/dp/B01GBAJR9C) - 09/2020
+
 * [How Money Became Dangerous - Christopher Varelas](https://www.amazon.com/How-Money-Became-Dangerous-Relationship/dp/0062684752) - 07/2020
 
 * [Prisoners of Geography - Tim Marshall](https://www.amazon.com/Prisoners-Geography-Explain-Everything-Politics/dp/1501121472/) - 06/2020
