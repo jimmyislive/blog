@@ -57,6 +57,7 @@ The convention we will follow in this tutorial when naming resources is acme-<en
 Create a new project and set this newly created project as the default. Since the project ID/number are unique across google cloud, i'll be adding todays date next to it to make it unique. Change it for yourself as appropriate.
 
     {{< highlight bash >}}
+
     gcloud projects create acme-project-09102020
     gcloud config set project acme-project-09102020
     {{< / highlight >}}
@@ -64,6 +65,7 @@ Create a new project and set this newly created project as the default. Since th
 Verify that your project was created:
 
     {{< highlight bash >}}
+
     gcloud projects list
     {{< / highlight >}}
 
@@ -74,6 +76,7 @@ At this point if you want to enable any third part apps e.g. for sending emails,
 Enable any service APIs you think you will need. You will need to go to your project and [enable billing](https://cloud.google.com/billing/docs/how-to/modify-project) first. A representative sample is show below. (Would not hurt to set the default zone/region as well.)
 
     {{< highlight bash >}}
+
     gcloud services enable compute.googleapis.com
     gcloud services enable servicenetworking.googleapis.com
     gcloud services enable containerregistry.googleapis.com
@@ -85,12 +88,14 @@ Enable any service APIs you think you will need. You will need to go to your pro
 
 Confirm it worked:
     {{< highlight bash >}}
+
     gcloud services list
     {{< / highlight >}}
 
 ## Create VPC
 
     {{< highlight bash >}}
+
     gcloud compute networks create acme-prod-vpc \
         --subnet-mode=custom \
         --bgp-routing-mode=regional
@@ -99,6 +104,7 @@ Confirm it worked:
 Confirm it's there:
 
     {{< highlight bash >}}
+
     gcloud compute networks list
     {{< / highlight >}}
 
@@ -107,6 +113,7 @@ Confirm it's there:
 We will create only one subnet. The CIDR 10.0.0.0/20 can accomodate 4094 hosts, so you should be fine. The flag `enable-private-ip-google-access` is needed to connect to the container registry which houses our docker container.
 
     {{< highlight bash >}}
+
     gcloud compute networks subnets create acme-prod-subnet-web \
         --network=acme-prod-vpc \
         --range=10.0.0.0/20 \
@@ -117,6 +124,7 @@ We will create only one subnet. The CIDR 10.0.0.0/20 can accomodate 4094 hosts, 
 Confirm it's there:
 
     {{< highlight bash >}}
+
     gcloud compute networks subnets list
     {{< / highlight >}}
 
@@ -126,23 +134,27 @@ By default GCP blocks all incoming traffic and allows all outgoing traffic. We n
 
 Allow SSH into the boxes you will set up:
     {{< highlight bash >}}
+
     gcloud compute firewall-rules create acme-prod-fw-allow-ssh --network acme-prod-vpc --allow tcp:22,icmp
     {{< / highlight >}}
 
 Allow all egress traffic:
     {{< highlight bash >}}
+
     gcloud compute firewall-rules create acme-prod-fw-allow-egress --network acme-prod-vpc --direction egress --action allow --rules all --destination-ranges 0.0.0.0/0
     {{< / highlight >}}
 
 Allow traffic within the subnet:
 
     {{< highlight bash >}}
+
     gcloud compute firewall-rules create acme-prod-fw-subnet-web-allow-internal-network --allow tcp:1-65535,udp:1-65535,icmp --source-ranges 10.0.0.0/20 --network acme-prod-vpc
     {{< / highlight >}}
 
 Allow health checks from the load balancer (which when created in later steps will send traffic to our nodes):
 
     {{< highlight bash >}}
+
     gcloud compute firewall-rules create acme-prod-fw-allow-health-check-proxy \
     --network=acme-prod-vpc \
     --action=allow \
@@ -156,6 +168,7 @@ Allow health checks from the load balancer (which when created in later steps wi
 Since we will be launching a google cloud postgres DB, we should enable vpc peering b/w our network and the managed service one:
 
     {{< highlight bash >}}
+
     gcloud compute addresses create google-managed-services-acme-prod-vpc \
         --global \
         --purpose=VPC_PEERING \
@@ -175,6 +188,7 @@ Since we will be launching a google cloud postgres DB, we should enable vpc peer
 Our instances will have only private IPs, so they need a way to access the internet:
 
     {{< highlight bash >}}
+
     gcloud compute routers create acme-prod-nat-router-us-west1 \
         --network acme-prod-vpc \
         --region us-west1
@@ -191,18 +205,21 @@ Our instances will have only private IPs, so they need a way to access the inter
 We will be using the google hosted cloud DB (postgres). So lets go ahead and create one. It will have only a private IP (modify the memory/cpu as you see fit):
 
     {{< highlight bash >}}
+
     gcloud beta sql instances create prod1 --database-version=POSTGRES_12 --cpu=1 --memory=4GB --zone=us-west1-a --storage-size=10 --network=acme-prod-vpc --no-assign-ip
     {{< / highlight >}}
 
 Let's setup a password for the postgres DB:
 
     {{< highlight bash >}}
+
     gcloud sql users set-password postgres --instance=prod1 --password=mysecretpassword
     {{< / highlight >}}
 
 You can verify that your DB was created via:
 
     {{< highlight bash >}}
+
     gcloud sql databases list --instance=prod1
     {{< / highlight >}}
 
@@ -211,6 +228,7 @@ You can verify that your DB was created via:
 We will be running our app in a docker container. We will be using env vars to send in config related info into the container. Lets create a dummy env var file called prod.env. This should not be checked into source control as it probably has things like credentials etc. A sample prod.env would look like:
 
     {{< highlight bash >}}
+
     FOO=BAR
     BAZ=QUX
     {{< / highlight >}}
@@ -219,6 +237,7 @@ We will be running our app in a docker container. We will be using env vars to s
 This is the container we are actually deploying i.e. our app. For this example we will deploy a simple ngix app that is listening on port that displays a welcome message. Assuming you are logged into your docker hub account:
 
     {{< highlight bash >}}
+
     docker pull nginx
     docker tag nginx gcr.io/acme-project-09102020/nginx:0.0.1
     {{< / highlight >}}
@@ -226,6 +245,7 @@ This is the container we are actually deploying i.e. our app. For this example w
 Test that it works by:
 
     {{< highlight bash >}}
+
     docker run -it --rm -d -p 80:80 --name web gcr.io/acme-project-09102020/nginx:0.0.1
     {{< / highlight >}}
 
@@ -234,6 +254,7 @@ Then go to `http://localhost/` and you should see a "welcome to nginx" message.
 Now that we have confirmed that this image works, lets push this to our gcr account:
 
     {{< highlight bash >}}
+
     gcloud auth configure-docker
     docker push gcr.io/acme-project-09102020/nginx:0.0.1
     {{< / highlight >}}
@@ -243,6 +264,7 @@ Now that we have confirmed that this image works, lets push this to our gcr acco
 We will be using a template to create our instances. This ensures that our instances are identical copies of each other. Remember that once created a template cannot be changed. If you want to make a change e.g. a new version of the container etc, create a new template.
 
     {{< highlight bash >}}
+
     gcloud compute instance-templates create-with-container acme-web-vm-0-0-1 \
     --container-image=gcr.io/acme-project-09102020/nginx:0.0.1 \
     --scopes=default,storage-full \
@@ -263,6 +285,7 @@ We will be using a template to create our instances. This ensures that our insta
 Now we create a managed instance group based on the template we just created (you can modify the number of instances as you see fit):
 
     {{< highlight bash >}}
+
     gcloud compute instance-groups managed create acme-web-1 \
         --base-instance-name acme-web-1-vm \
         --size 1 \
@@ -273,6 +296,7 @@ Now we create a managed instance group based on the template we just created (yo
 After a while the you can verify that your instances are up and even ssh into them if you like  via:
 
     {{< highlight bash >}}
+
     gcloud compute instances list
     gcloud compute ssh <instance-name>
     {{< / highlight >}}
@@ -280,6 +304,7 @@ After a while the you can verify that your instances are up and even ssh into th
 If you ssh in, you should see a message something like below to confirm that the instance came up fine and so did the docker container.
 
 {{< highlight bash >}}
+
   ########################[ Welcome ]########################
   #  You have logged in to the guest OS.                    #
   #  To access your containers use 'docker attach' command  #
@@ -299,6 +324,7 @@ Note that these instances will not have any public IPs, only private ones.
 In order to have a load balancer forward traffic to these instances, we need to create some IP addresses:
 
     {{< highlight bash >}}
+
     gcloud compute addresses create acme-prod-lb-ipv4 \
         --ip-version=IPV4 \
         --global
@@ -313,6 +339,7 @@ In order to have a load balancer forward traffic to these instances, we need to 
 We need to add a backend service so that we can attach it to a load balancer.
 
     {{< highlight bash >}}
+
     gcloud compute health-checks create http acme-http-basic-check \
         --port 80
 
@@ -340,6 +367,7 @@ We need to add a backend service so that we can attach it to a load balancer.
 We now create ssl certs, a url map and attach them to a load balancer we creare:
 
     {{< highlight bash >}}
+
     gcloud compute url-maps create acme-url-map \
         --default-service acme-prod-web-backend-service
 
@@ -365,6 +393,7 @@ We now create ssl certs, a url map and attach them to a load balancer we creare:
 At this point if you go to the IPv4 address(`gcloud compute addresses list`), you should see your service up and running. You should give the load balancer 5 to 10 minutes to provision, before checking:
 
 {{< highlight bash >}}
+
 $gcloud compute addresses list
 
 NAME                                    ADDRESS/RANGE       TYPE      PURPOSE      NETWORK        REGION    SUBNET  STATUS
@@ -383,5 +412,6 @@ You can now visit the site at:
 In order to cleanup everything you just did and no longer incur any changes, delete the project:
 
     {{< highlight bash >}}
+    
     gcloud delete project acme-project-09102020
     {{< / highlight >}}
