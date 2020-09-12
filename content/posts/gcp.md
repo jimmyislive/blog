@@ -410,9 +410,6 @@ You can now visit the site at: `35.244.175.20`
 
 ## Cleanup
 
-In order to cleanup everything you just did and no longer incur any changes, delete the project:
+In order to cleanup everything you just did and no longer incur any changes, delete the project. 
 
-    {{< highlight bash >}}
-
-    gcloud delete project acme-project-09102020
-    {{< / highlight >}}
+Console > Dashboard > <select your project> > Project Settings > Shut Down
