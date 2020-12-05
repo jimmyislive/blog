@@ -10,6 +10,12 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [On the shortness of life - Seneca](https://www.amazon.com/gp/product/1941129420) - 12/2020
+
+* [Freakonomics - Steven Levitt / Stephen Dubner](https://www.amazon.com/Freakonomics-Economist-Explores-Hidden-Everything/dp/0060731338/) - 12/2020
+
+* [The Joy of Missing Out - Svend Brinkmann](https://www.amazon.com/Joy-Missing-Out-Self-Restraint-Excess/dp/1509531572) - 12/2020
+
 * [Skin in the Game - Nassim Taleb](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/042528462X) - 11/2020
 
 * [The Salt Fix - Dr. James DiNicolantonio](https://www.amazon.com/Salt-Fix-Experts-Wrong-Eating-ebook/dp/B01GBAJR9C) - 09/2020
