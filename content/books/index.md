@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Gang Leader for a Day - Sudhir Venkatesh](https://www.amazon.com/Gang-Leader-Day-Sociologist-Streets/dp/014311493X) - 12/2020
+
 * [On the shortness of life - Seneca](https://www.amazon.com/gp/product/1941129420) - 12/2020
 
 * [Freakonomics - Steven Levitt / Stephen Dubner](https://www.amazon.com/Freakonomics-Economist-Explores-Hidden-Everything/dp/0060731338/) - 12/2020
