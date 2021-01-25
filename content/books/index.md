@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Strong Towns - Charles L. Marohn Jr.](https://www.amazon.com/Strong-Towns-Bottom-Up-Revolution-Prosperity/dp/1119564816) - 01/2021
+
 * [Gang Leader for a Day - Sudhir Venkatesh](https://www.amazon.com/Gang-Leader-Day-Sociologist-Streets/dp/014311493X) - 12/2020
 
 * [On the shortness of life - Seneca](https://www.amazon.com/gp/product/1941129420) - 12/2020
