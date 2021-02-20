@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Small is Beautiful - E. F. Schumacher](https://www.amazon.com/Small-Beautiful-Economics-Mattered-Perennial/dp/0061997765) - 02/2021
+
 * [Strong Towns - Charles L. Marohn Jr.](https://www.amazon.com/Strong-Towns-Bottom-Up-Revolution-Prosperity/dp/1119564816) - 01/2021
 
 * [Gang Leader for a Day - Sudhir Venkatesh](https://www.amazon.com/Gang-Leader-Day-Sociologist-Streets/dp/014311493X) - 12/2020
