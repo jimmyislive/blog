@@ -10,6 +10,10 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [The Simple Path to Wealth - J.L. Collins](https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926) - 06/2021
+
+* [The End of Overeating - David A. Kessler](https://www.amazon.com/End-Overeating-Insatiable-American-Appetite/dp/1605294578) - 05/2021
+
 * [The Price of Civilization - Jeffrey Sachs](https://www.amazon.com/Price-Civilization-Reawakening-American-Prosperity/dp/0812980468) - 04/2021
 
 * [Small is Beautiful - E. F. Schumacher](https://www.amazon.com/Small-Beautiful-Economics-Mattered-Perennial/dp/0061997765) - 02/2021
