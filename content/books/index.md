@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Into Thin Air - Jon Krakauer](https://www.thriftbooks.com/w/into-thin-air-a-personal-account-of-the-mt-everest-disaster_jon-krakauer/250322/item/3718623/) - 07/2021
+
 * [The Simple Path to Wealth - J.L. Collins](https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926) - 06/2021
 
 * [The End of Overeating - David A. Kessler](https://www.amazon.com/End-Overeating-Insatiable-American-Appetite/dp/1605294578) - 05/2021
