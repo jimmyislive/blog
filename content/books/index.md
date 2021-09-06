@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Peace Is Every Step - Thich Nhat Hanh](https://www.amazon.com/Peace-Every-Step-Mindfulness-Everyday/dp/0553351397) - 09/2021
+
 * [Into Thin Air - Jon Krakauer](https://www.thriftbooks.com/w/into-thin-air-a-personal-account-of-the-mt-everest-disaster_jon-krakauer/250322/item/3718623/) - 07/2021
 
 * [The Simple Path to Wealth - J.L. Collins](https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926) - 06/2021
