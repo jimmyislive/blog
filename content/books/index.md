@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Into The Wild - Jon Krakauer](https://www.thriftbooks.com/w/into-the-wild_jon-krakauer/245729/) - 10/2021
+
 * [The Alchemist - Paulo Coelho](https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0061122416) - 09/2021
 
 * [Peace Is Every Step - Thich Nhat Hanh](https://www.amazon.com/Peace-Every-Step-Mindfulness-Everyday/dp/0553351397) - 09/2021
