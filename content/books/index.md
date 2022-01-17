@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Dumbing Us Down - John Taylor Gatto](https://www.amazon.com/Dumbing-Down-Curriculum-Compulsory-Schooling-dp-0865718547/dp/0865718547) - 01/2022
+
 * [Into The Wild - Jon Krakauer](https://www.thriftbooks.com/w/into-the-wild_jon-krakauer/245729/) - 10/2021
 
 * [The Alchemist - Paulo Coelho](https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0061122416) - 09/2021
