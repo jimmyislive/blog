@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
+* [Little and Often - Trent Preszler](https://www.amazon.com/Little-Often-Memoir-Trent-Preszler/dp/0062976648) - 05/2022
+
 * [Ikigai - The Japanese Secret to a Long and Happy Life - Hector Garcia / Francesc Miralles](https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722) - 05/2022
 
 * [The Geography of Nowhere - James Howard Kunstler](https://www.thriftbooks.com/w/geography-of-nowhere-the-rise-and-decline-of-americas-man-made-landscape_james-howard-kunstler/252343/?resultid=6c9389f2-18c9-4548-b6fa-e50a72cf5f44#edition=2264395&idiq=2862438) - 02/2022
