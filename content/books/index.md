@@ -8,7 +8,7 @@ categories: []
 keywords: [books]
 draft: false
 ---
-Some of the books I have recently read. Items marked with a :thumbsup: are ones that I really enjoyed.
+Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
 * [Little and Often - Trent Preszler](https://www.amazon.com/Little-Often-Memoir-Trent-Preszler/dp/0062976648) - 05/2022 (:thumbsup:)
 
