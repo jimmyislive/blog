@@ -10,7 +10,7 @@ draft: false
 ---
 Some of the books I have recently read. Hopefully you will find them enjoyable.
 
-* [Little and Often - Trent Preszler](https://www.amazon.com/Little-Often-Memoir-Trent-Preszler/dp/0062976648) - 05/2022
+* [Little and Often - Trent Preszler](https://www.amazon.com/Little-Often-Memoir-Trent-Preszler/dp/0062976648) - 05/2022 (:thumbsup:)
 
 * [Ikigai - The Japanese Secret to a Long and Happy Life - Hector Garcia / Francesc Miralles](https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722) - 05/2022
 
