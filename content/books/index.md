@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Walden - Henry David Thoreau](https://www.amazon.com/Walden-Henry-David-Thoreau/dp/1505297729) - 07/2022
+
 * [Little and Often - Trent Preszler](https://www.amazon.com/Little-Often-Memoir-Trent-Preszler/dp/0062976648) - 05/2022 (:thumbsup:)
 
 * [Ikigai - Hector Garcia / Francesc Miralles](https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722) - 05/2022
