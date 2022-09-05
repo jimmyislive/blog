@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [1776 - David McCullough](https://www.amazon.com/1776-David-McCullough/dp/0743226720) - 09/2022 (:thumbsup:)
+
 * [Little and Often - Trent Preszler](https://www.amazon.com/Little-Often-Memoir-Trent-Preszler/dp/0062976648) - 05/2022 (:thumbsup:)
 
 * [Ikigai - Hector Garcia / Francesc Miralles](https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722) - 05/2022
