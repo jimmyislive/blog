@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Zen and the art of motorcycle maintenance - Robert M Persig](https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469) - 10/2022 (:thumbsup:)
+
 * [Greenlights - Matthew McConaughey](https://www.amazon.com/Greenlights-Matthew-McConaughey/dp/0593139135) - 09/2022
 
 * [1776 - David McCullough](https://www.amazon.com/1776-David-McCullough/dp/0743226720) - 09/2022 (:thumbsup:)
