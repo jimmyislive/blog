@@ -31,6 +31,8 @@ For most of us history is something that happened far back in the past, with no 
 
 **1953** : Double helical structure of DNA discovered
 
+**1972** - Nixon meets Mao (opening up China to the world)
+
 **1989** : Berlin Wall fell
 
 
