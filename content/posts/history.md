@@ -19,6 +19,8 @@ For most of us history is something that happened far back in the past, with no 
 
 **1095 - 1291** : [Crusades](https://en.wikipedia.org/wiki/Crusades)
 
+**1492** : Christopher Columbus 'discovered' America
+
 **1543** : Copernicus finding that the earth was not the center of the universe
 
 **1600** : East India Company founded
@@ -31,7 +33,7 @@ For most of us history is something that happened far back in the past, with no 
 
 **1953** : Double helical structure of DNA discovered
 
-**1972** - Nixon meets Mao (opening up China to the world)
+**1972** : Nixon meets Mao (opening up China to the world)
 
 **1989** : Berlin Wall fell
 
