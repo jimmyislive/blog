@@ -27,6 +27,8 @@ For most of us history is something that happened far back in the past, with no 
 
 **1803 -  1815** : [Napoleonic Wars](https://en.wikipedia.org/wiki/Napoleonic_Wars)
 
+**1844** : Charles Goodyear awarded patent for vulcanized rubber
+
 **1914 - 1918** : [World War I](https://en.wikipedia.org/wiki/World_War_I)
 
 **1939 - 1945** : [World War II](https://en.wikipedia.org/wiki/World_War_II)
