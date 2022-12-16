@@ -1,0 +1,3 @@
+To add a new section:
+   1. Edit en.toml
+   2. Edit layout/partials/header-menu.html
