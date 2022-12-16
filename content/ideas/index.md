@@ -1,7 +1,7 @@
 ---
 title: Ideas
 description: ideas
-date: 2022-12-16T20:54:45-08:00
+date: 2022-12-15T20:54:45-08:00
 publishdate: 
 lastmod: 
 categories: []
