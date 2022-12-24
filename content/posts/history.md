@@ -25,6 +25,8 @@ For most of us history is something that happened far back in the past, with no 
 
 **1600** : East India Company founded
 
+**1712** : Thomas Newcomen invents the first steam engine
+
 **1803 -  1815** : [Napoleonic Wars](https://en.wikipedia.org/wiki/Napoleonic_Wars)
 
 **1844** : Charles Goodyear awarded patent for vulcanized rubber
