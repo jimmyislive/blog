@@ -4,7 +4,7 @@ date: 2022-12-24
 draft: false 
 tags: ["life"]
 ---
-It's actually true. When an "expert" says something, we take it as face value. We never question it and keep propogating those views. Without even pausing to consider if it's really true or not. Our emotions and biases seem to have a greater effect on if we accept that viewpoint or not.
+It's actually true. When an "expert" says something, we take it at face value. We never question it and keep propogating those views. Without even pausing to consider if it's really true or not. Our emotions and biases seem to have a greater effect on if we accept that viewpoint or not.
 
 Irrespective of whether we accept the viewpoint or not, we just assume that the author knows what s/he is talking about. We don't even pause before considering it as ground truth.
 
@@ -20,10 +20,10 @@ We live in an uncertain world. We always seem to forget that.
 
 One of the reasons for this is that we mix up Facts and Opinions. A fact is a truth statement. "The Sun rises in the East", "The Earth revolves around the Sun" etc...these are facts. Facts are relatively easy to discern. Everything else is an opinion. Loosely held by some, strongly held by others. But...its still an opinion.
 
-"Investing in a home right now is a great idea" is an opinion, probably of a realtor. "Buy this stock, sell that stock" is also an opinion, probably from a day trader. The future is going to be like this or that is also an opionion, probably from a VC. They are all OPINIONS. They _think_ they know, but that does not mean that they know or that it is even remotely true.
+"Investing in a home right now is a great idea" is an opinion, probably of a realtor. "Buy this stock, sell that stock" is also an opinion, probably from a day trader. The future is going to be like this or that is also an opinion, probably from a VC. They are all OPINIONS. They _think_ they know, but that does not mean that they know or that it is even remotely true.
 
 The point that I'm trying to make is that, have a healthy amount of skepticism for eveything. Be comfortable in an ever changing world. Be conservative in your finances and judgements. This does not mean to use this as an excuse to do absolutely nothing. On the contrary. Be aware of the world around you and that you can predict the future as bad as the "expert" you are listening to. Make locally optimal decisions based on your current understanding of your environment knowing that you may have to change these down the line.  
 
-Just by having that thread running in your mind about uncertainty, unpredictability, non-determinism in your mind in the background, helps you be grounded and act in a more rational way.
+Just by having that thread running in your mind, in the background, about uncertainty, unpredictability and non-determinism, helps you be grounded and act in a more rational way.
 
 No one really knows anything for sure.
