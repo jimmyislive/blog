@@ -18,7 +18,7 @@ I don't think there is a living soul who anticipated COVID and the monumental sh
 
 We live in an uncertain world. We always seem to forget that. 
 
-One of the reasons for this is that we mix up Facts and Opinions. A fact is a truth statement. "The Sun rises in the East", "The Earth revolves around the Sun" etc...these are facts. Facts are relatively easy to discern. Everything else is an opinion. Loosely held by some, strongly held by others. But...its still an opinion.
+One of the reasons for this is that we mix up Facts and Opinions. A fact is a truth statement. "The Sun rises in the East", "The Earth revolves around the Sun" etc...these are facts. Facts are relatively easy to discern. Everything else is an opinion. Loosely held by some, strongly held by others. But...it's still an opinion.
 
 "Investing in a home right now is a great idea" is an opinion, probably of a realtor. "Buy this stock, sell that stock" is also an opinion, probably from a day trader. The future is going to be like this or that is also an opinion, probably from a VC. They are all OPINIONS. They _think_ they know, but that does not mean that they know or that it is even remotely true.
 
