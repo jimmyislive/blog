@@ -23,7 +23,7 @@ Now install tailscale on your macbook. If you open the admin console you will se
 
 I then created a dummy file called `hello_tailscale.txt` on the macbook. You can use [Taildrop](https://tailscale.com/kb/1106/taildrop/) to copy that file between your devices. Just right click > share. Boom ! The file is now on my android device !
 
-{{< figure src="/images/hello_tailscale.jpg" height="500" width="720">}}
+{{< figure src="/images/hello_tailscale.jpg" height="500">}}
 
 Under the hood, after authentication, when each device is added to the tail network, the auto generated public key is added to the tailscale co-ordination server. This public key is used to identify the device i.e node on the private network. After that, data is directly transferred peer-to-peer between nodes using the auto generated private key. (Note that the private key never leaves the node and data transfer happens peer-to-peer). This is also called zero trust networking. The control pane i.e. coordination server is used only to store public keys of the nodes, domains and some other metadata which is downloaded by all the nodes.
 
