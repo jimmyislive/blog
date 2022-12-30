@@ -1,6 +1,6 @@
 ---
 title: "Setting up a private network with Tailscale"
-date: 2022-12-30T17:00:00-08:00
+date: 2022-12-29T17:00:00-08:00
 draft: false
 tags: ["tailscale"]
 ---
