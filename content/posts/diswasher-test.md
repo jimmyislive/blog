@@ -1,5 +1,5 @@
 ---
-title: "The Dishwasher Test for "Am I Rich ?""
+title: "The Dishwasher Test for \"Am I Rich ?\""
 date: 2023-01-15
 draft: false
 tags: ["dishwasher test"]
