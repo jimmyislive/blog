@@ -63,6 +63,4 @@ The above gives a standardized process and acts as a forcing function to talk ab
 
 Remember though, prioritizing tasks needs to be complemented with a long term roadmap / vision. 
 
-
-
-
+PS: Wow this seems to have blown up ! It made it to the home page of [Hacker News](https://news.ycombinator.com/item?id=34511496).
