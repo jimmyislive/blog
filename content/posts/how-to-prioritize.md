@@ -40,7 +40,9 @@ Short Term Impact : -b
 Long Term Impact  : -c
 ```
 
-If there is immediate impact, assign a low negative score. And if only in the long term, assign a higher negative score.
+If there is immediate impact, assign a low negative score( eg. -7 => this means that the the impact is high on the customer if we don't do this right now). And if only in the long term, assign a higher negative score(-3 => this means that the the impact is lower on the customer if we don't do this right now). 
+
+The further away you go from the origin, the bigger the impact to the customer/product.
 
 ## What is the effort involved in doing the task ?
 Resources are always limited. So ballparking effort is a critical aspect of deciding which task to prioritize. You can use the following broad buckets to characterize effort:
@@ -55,7 +57,9 @@ Low     r
 
 Once you have a quantitative score attached to each item above, add them up. 
 
-`(x|y|z) - (a|b|c) + (p|q|r)`
+`(x|y|z) + (a|b|c) + (p|q|r)`
+
+*NOTE*: a|b|c is a negative score so the result is subtraction. (In the original version I had this formula as `(x|y|z) - (a|b|c) + (p|q|r)` but the intention there was to use the absolute value of a|b|c)
 
 The tasks whose score is closer to 0, should be prioritized higher and hence done now. Or choose a band: tasks that fall in the +ve X to -ve X band will be done now and the tasks that fall outside that band fall into a Backlog bucket for review later. (The next sprint / quarter, pick out items from this Backlog bucket and run through a similar exercise to prioritize.)
 
