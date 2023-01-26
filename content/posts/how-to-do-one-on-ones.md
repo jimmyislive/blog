@@ -1,7 +1,7 @@
 ---
 title: "How To Do 1:1 With Your Team ?"
 date: 2023-01-26
-draft: true
+draft: false
 tags: ["management"]
 ---
 One on Ones (1:1) with your team members may be the single most important tool available to a manager. But it's often not done properly and consequently its benefits are not realized. But first...
