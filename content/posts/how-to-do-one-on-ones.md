@@ -27,10 +27,10 @@ But before we talk of what should happen in a 1:1, first lets see what should NO
     Ask about what's working and what's not working. Are there process related inefficiencies ? Are they getting blocked or interrupted frequently? Have open ended discussions about... well anything.
 2. Give feedback about their performance. 
 
-    Is it lacking ? Are they doing well ? What can they do to improve? Performance deficits should never be a surprise to either one as you both should have talked about this over several 1:1s. As a manager, be ENGAGED. Don't just give leadership lectures. Be specific in your asks and when they bring a problem to you, act on it.(It's just exhausting when management is effectively asleep at the wheel) Remember, their success is your success.
+    Is it lacking ? Are they doing well ? What can they do to improve? Performance deficits should never be a surprise to either one as you both should have talked about this over several 1:1s. As a manager, be engaged. Don't just give leadership lectures. Be specific in your asks and when they bring a problem to you, act on it. Remember, their success is your success.
 3. Talk about the future roadmap 
 
-    Familiarize yourself with the aspirations of your team members. Do they want managerial responsibilities in the future ? Do they want to be more IC(Individual Contributor) oriented ? Ask about what you can do to help them in their career journey and give specific feedback. Talk about milestones they need to meet so that they have some concrete actionable goals. And when they meet it, hold your end of the bargain !
+    Familiarize yourself with the aspirations of your team members. Do they want managerial responsibilities in the future ? Do they want to be more IC(Individual Contributor) oriented ? Ask about what you can do to help them in their career journey and give specific feedback. Talk about milestones they need to meet so that they have some concrete actionable goals. And when they meet it, reward them appropriately.
 4. Build a relationship 
 
     In today's corporate world, the perception is that companies are faceless and you will be replaced if that's what helps the bottom line of the company. (Probably true to some extent). But you are not faceless. You can build a rapport/professional relationship with your team members based on transparency and openness. Be humble and be invested in the success of your team members. It cannot be faked and it shows.
@@ -45,4 +45,4 @@ But before we talk of what should happen in a 1:1, first lets see what should NO
     Keep the possibility of it to be canceled if the team member does not have anything specific to talk about. (Some weeks are slow). Don't make it a bore. Though don't let a long time pass by without doing it, else you will get out of touch with ground realities.
 
 
-The above are some high level things you should remember during your 1:1s. But the most important thing: SHOW UP. If you ignore them, it will just become another checkbox to tick and you, your team and the org will be poorer for it.
+The above are some high level things you should remember during your 1:1s. But the most important thing: show up. If you ignore them, it will just become another checkbox to tick and you, your team and the org will be poorer for it.
