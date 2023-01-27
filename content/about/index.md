@@ -9,7 +9,7 @@ draft: false
 ---
 My name is Jimmy and I am engineer / entrepreneur living and working in beautiful [Berkeley, CA](https://en.wikipedia.org/wiki/Berkeley,_California).
 
-I currently work on MLOps / MLInfra / Data Pipelines / Infrastructure Automation / Tooling using AWS/GCP/Golang/Python/Terraform/Airflow etc. If you are looking for a engineering management/leadership hire, hit me up !
+I currently work on MLOps / MLInfra / Data Pipelines / Infrastructure Automation / Tooling using AWS/GCP/K8/docker/Golang/Python/Terraform/Airflow etc. If you are looking for a engineering management/leadership hire, hit me up !
 
 My interests revolve around technology, health, philosophy/spirituality and learning.
 
