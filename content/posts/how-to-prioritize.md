@@ -2,7 +2,7 @@
 title: "How To Prioritize Tasks ?"
 date: 2023-01-22
 draft: false
-tags: ["prioritization", "management"]
+tags: ["management"]
 ---
 Shipping products is hard. What makes it hard is that typical products involve multiple teams and multiple dependencies. Navigating these challenges is non-trivial. There are technical challenges to overcome, but those are typically not the biggest blockers. (There are enough smart people in the room to take care of that, unless its some greenfield domain like AR/VR/Self-Driving etc), Then there are the procedural challenges; what should be done when and by whom. This is where most organizations run into their biggest pain points as there is no set process to follow to fix it. It necessarily involves people and each organization needs to come up with its own flavor of processes that work.
 
