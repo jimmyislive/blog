@@ -18,7 +18,7 @@ Here are some ideas to help you with task prioritization:
 ## What benefit does doing the task have on your customer / product ?
 You should arrive at a score that quantifies the benefits of prioritizing this task. Is it a highly requested feature ? Is it a competitive advantage ? Does it reduce cost ? Does it reduce the time to delivery ?
 
-No doubt, quantifying the benefit is hard (Document assumptions you need to make in order do it)
+No doubt, quantifying the benefit is hard (Document assumptions you need to make in order to do it)
 
 Use a scoring method like this to arrive at a score:
 ```
