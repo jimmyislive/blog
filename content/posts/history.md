@@ -31,6 +31,8 @@ For most of us history is something that happened far back in the past, with no 
 
 **1844** : Charles Goodyear awarded patent for vulcanized rubber
 
+**1859** : First commercial crude oil well drilled at Titusville, Pennsylvania
+
 **1914 - 1918** : [World War I](https://en.wikipedia.org/wiki/World_War_I)
 
 **1939 - 1945** : [World War II](https://en.wikipedia.org/wiki/World_War_II)
