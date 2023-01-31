@@ -2,7 +2,7 @@
 title: "Populating go vars at build time"
 date: 2019-03-12T20:54:45-08:00
 draft: false
-tags: ["golang"]
+tags: ["tech"]
 ---
 When we build go executables, one common command is the `version` command. It should tell you the commit, version number etc of the released executable. However, we don't want to hardcode these in code. We want to populate these variables at build time. Here is a common pattern that will let you do this. 
 

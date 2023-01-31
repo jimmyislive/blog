@@ -2,7 +2,7 @@
 title: "History"
 date: 2022-11-07
 draft: false
-tags: ["history"]
+tags: ["musings"]
 ---
 
 For most of us history is something that happened far back in the past, with no relevance to us now. That's just not true. A lot of what we consider "far off in the past" is actually quite recent (in relative terms). e.g. the cold war got over just 30 years ago. 200 years ago, Napolean was still around ! The technological progress of man in the last 100 years has been more than all of the progress we have made since we walked the earth. Maybe its this rapid pace of innovation that makes history seem...like history ! Like a snowball that keep going faster as it progresses downhill. Here are some dates that helped me get perspective of where we are and how far (or not) we have come since the early days.

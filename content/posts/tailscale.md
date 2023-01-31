@@ -2,7 +2,7 @@
 title: "Setting up a private network with Tailscale"
 date: 2022-12-29T17:00:00-08:00
 draft: false
-tags: ["tailscale"]
+tags: ["tech"]
 ---
 
 I came across [Tailscale](https://tailscale.com/) recently. It's a tool that lets you build a private mesh network between your devices easily.

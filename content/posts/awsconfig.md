@@ -2,7 +2,7 @@
 title: "AWS Config"
 date: 2019-05-31T13:00:00
 draft: false
-tags: ["aws", "config", "cloud"]
+tags: ["aws", "tech"]
 ---
 [**AWS Config**](https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html) is a service provided by AWS to keep track of configurations (and their possible drift) of all the resources you bring up in AWS. When your infrastructure setup is small, you probably don't have to be worried about a configuration store for your resources. But as you grow, it would become increasingly difficult to manage and keep track of all the moving pieces, especially if you have a team of engineers continually deploying and changing things. Other benefits of such tracking include auditing, security and compliance and general mental health and well being.
 

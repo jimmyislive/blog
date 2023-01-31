@@ -2,7 +2,7 @@
 title: "End to End Deployment on GCP"
 date: 2020-09-10
 draft: false
-tags: ["gcp"]
+tags: ["tech"]
 ---
 
 # Table of Contents

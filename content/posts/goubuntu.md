@@ -2,7 +2,7 @@
 title: "Go Docker Container"
 date: 2019-10-09
 draft: false
-tags: ["golang", "docker"]
+tags: ["tech"]
 ---
 If anyone is looking for a ubuntu based container with [golang 1.13](https://golang.org/doc/go1.13), I just pushed one up to [docker hub](https://hub.docker.com):
 

@@ -2,7 +2,7 @@
 title: "'Remember Me' using the Go gorilla framework"
 date: 2020-02-05
 draft: false
-tags: ["golang", "sessions", "gorilla", "rememberme"]
+tags: ["tech"]
 ---
 A 'Remember Me' type functionality is something that is available on most websites today. Essentially what it does is that if the checkbox is checked when logging in, the session is kept logged in for a much longer duration (say a week or month). Otherwise, when you close the browser, the session terminates and you have to log in again the next time you visit the site.
 

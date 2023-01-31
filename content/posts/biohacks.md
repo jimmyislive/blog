@@ -2,7 +2,7 @@
 title: "BioHacks"
 date: 2020-03-04
 draft: false
-tags: ["biohacks", "biopython", "biochemistry", "dna"]
+tags: ["tech"]
 ---
 
 I recently read a book called "The Gene" (by Siddhartha Mukherjee). It gives a great introduction to the history of our understanding of the human genome. That got me curious and I started playing around with DNA Sequences (in the software world !). I wrote simple functions to do things like DNA transcription, DNA Reverse Complement etc. It is available for anyone to use at:

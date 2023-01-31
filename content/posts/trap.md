@@ -2,7 +2,7 @@
 title: "Trap in bash scripts"
 date: 2018-05-05T21:54:45-08:00
 draft: false
-tags: ["bash"]
+tags: ["tech"]
 ---
 
 You may be familiar with the “set -e” you typically see in bash scripts. It means that the script should exit on error (default behaviour of bash is to keep going)

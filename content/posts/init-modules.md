@@ -2,7 +2,7 @@
 title: "Init function in modules"
 date: 2019-03-11T20:54:45-08:00
 draft: false
-tags: ["golang"]
+tags: ["tech"]
 ---
 A Go package can have an `init` function. This function is called at the time when the package is imported. You can put in any initialization you want here. e.g.
 

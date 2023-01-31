@@ -2,7 +2,7 @@
 title: "Co-operation and Competition"
 date: 2019-10-21
 draft: false
-tags: ["co-operation", "competition"]
+tags: ["musings"]
 ---
 I came across an interesting term in a book I just read. [The Origins of Virtue](https://www.amazon.com/Origins-Virtue-Instincts-Evolution-Cooperation/dp/0140264450) by Matt Ridley. In it he used the term "Co-operation and Competition" as a means to describe the "tug-of-war" within the various biological processes of the human body.
 

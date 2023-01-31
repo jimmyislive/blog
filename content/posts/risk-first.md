@@ -2,7 +2,7 @@
 title: "Risk First Assessment"
 date: 2020-05-21
 draft: false
-tags: ["process", "risk"]
+tags: ["management"]
 ---
 We are all familiar with the usual way how software project deliverables work: requirements, design, development, testing, deployment, monitoring...
 

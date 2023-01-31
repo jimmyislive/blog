@@ -2,7 +2,7 @@
 title: "Introduction to Go Modules"
 date: 2019-03-24T22:00:00
 draft: false
-tags: ["golang"]
+tags: ["tech"]
 ---
 # Table of Contents
 1. [Preface](#preface)

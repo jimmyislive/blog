@@ -2,7 +2,7 @@
 title: "Adding multiple certs to an ALB"
 date: 2018-02-16T21:35:45-08:00
 draft: false
-tags: ["aws", "alb", "ec2", "elb", "certificates"]
+tags: ["tech"]
 ---
 
 If you are using AWS and ALBs, you have the ability to [add multiple certs to the ALB](https://redirect.viglink.com/?u=https%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2Fnew-application-load-balancer-sni%2F&ref=https%3A%2F%2Ft.umblr.com&key=440c1d93533c952bd78a45f41d1cdb78&subId=t%3AGEwx1T_6jQbUrEStrh5JQg&loc=https%3A%2F%2Fjimmyislive.tumblr.com%2Fpost%2F170967009405%2Fadding-multiple-certs-to-an-alb) and terminate SSL there.

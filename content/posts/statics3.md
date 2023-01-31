@@ -2,7 +2,7 @@
 title: "Automated setup of a static site on S3 using Terraform"
 date: 2019-06-16
 draft: false
-tags: ["aws", "terraform", "s3"]
+tags: ["tech"]
 ---
 Many people, businesses don't need a dynamic website. they just need a placeholder on the web that gives information to customers about their business, contact info, address etc. A static website is a pretty easy way to achieve this. AWS S3 allows you to host static content and serve it up as webpages. You can set it up manually by following instructions [here](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html).
 

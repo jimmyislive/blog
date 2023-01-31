@@ -2,7 +2,7 @@
 title: "Docker image tagging in ECR"
 date: 2017-12-10
 draft: false
-tags: ["docker", "ecr", "aws"]
+tags: ["tech"]
 ---
 
 AWS provides a docker repository called [ECR](https://aws.amazon.com/ecr/). This is similar to [Docker Hub](https://hub.docker.com/), [Artifactory](https://jfrog.com/artifactory/) etc and provides a convenient place to place docker images for later use e.g. deployment.

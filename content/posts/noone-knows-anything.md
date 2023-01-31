@@ -2,7 +2,7 @@
 title: "No one Knows Anything"
 date: 2022-12-24
 draft: false 
-tags: ["life"]
+tags: ["musings"]
 ---
 It's actually true. When an "expert" says something, we take it at face value. We never question it and keep propagating those views. Without even pausing to consider if it's really true or not. Our emotions and biases seem to have a greater effect on if we accept that viewpoint or not.
 

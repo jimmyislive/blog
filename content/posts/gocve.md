@@ -2,7 +2,7 @@
 title: "GoCVE"
 date: 2019-11-30
 draft: false
-tags: ["golang", "cybersecurity", "cve", "infosec"]
+tags: ["tech"]
 ---
 Just released a new tool I have been working on: [GoCVE](https://github.com/jimmyislive/gocve)
 

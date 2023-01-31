@@ -2,7 +2,7 @@
 title: "Defer on exit"
 date: 2019-03-17T17:00:00-08:00
 draft: false
-tags: ["golang"]
+tags: ["tech"]
 ---
 Working with go, sometimes you may want to run a deferred action on Exit. Something like:
 

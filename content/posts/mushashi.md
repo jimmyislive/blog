@@ -2,7 +2,7 @@
 title: "Musashi’s 21 Precepts for Life"
 date: 2019-03-15T21:20:00-08:00
 draft: false
-tags: ["self-awareness"]
+tags: ["philosophy"]
 ---
 Just came across [Miyamoto Mushashi](https://en.wikipedia.org/wiki/Miyamoto_Musashi), the greatest swordsman to ever live. He also wrote two books, one of which is Dokkōdō (The Path of Aloneness). It comprises of 21 percepts for living life. A lot of them resonanted with me personally, so I'm listing them out here. (Interpretation of these can be very personal to each, so i' not even going to try.)
 

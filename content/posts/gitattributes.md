@@ -2,7 +2,7 @@
 title: ".gitattributes"
 date: 2019-03-10T20:54:45-08:00
 draft: false
-tags: ["git"]
+tags: ["tech"]
 ---
 Just like [.gitignore](https://git-scm.com/docs/gitignore), there is another file that you can use in your git repos: The [.gitattributes](https://git-scm.com/docs/gitattributes) file.
 

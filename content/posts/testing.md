@@ -2,7 +2,7 @@
 title: "Testing with Go"
 date: 2019-04-28T13:00:00
 draft: false
-tags: ["golang", "testing"]
+tags: ["tech"]
 ---
 An integral part of the development licefycle is writing tests. Write tests early, write tests often as they say. Go makes it very easy to write tests. The following post will go through the basics of testing with Go.
 
