@@ -9,7 +9,7 @@ draft: false
 ---
 My name is Jimmy and I am engineer / entrepreneur living and working in beautiful [Berkeley, CA](https://en.wikipedia.org/wiki/Berkeley,_California).
 
-I currently work on large scale distributed systems, MLOps, ML Infrastructure, Data Pipelines, Tooling and Platform services / operations / observability.
+I currently work on large scale distributed systems, MLOps, ML Infrastructure, Data Pipelines, Tooling and Platform services / operations / observability. *I am "Open to Work". *Happy to chat !
 
 My interests revolve around technology, health, philosophy/spirituality and learning.
 
