@@ -11,8 +11,6 @@ My name is Jimmy and I am engineer / entrepreneur living and working in beautifu
 
 I currently work on large scale distributed systems, MLOps, ML Infrastructure, Data Pipelines, Tooling and Platform services / operations / observability. 
 
-**I am "Open to Work".** Happy to chat !
-
 My interests revolve around technology, health, philosophy/spirituality and learning.
 
 In a former life, I founded and sold [CodeEval](https://techcrunch.com/2012/08/02/hirevue-acquires-codeeval-a-programmer-evaluation-tool-for-recruiters/).
