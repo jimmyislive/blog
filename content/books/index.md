@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Decoding Reality: The universe as quantum information - Vlatko Vedral](https://www.amazon.com/Decoding-Reality-Universe-Quantum-Information/dp/0199695741) - 4/2023
+
 * [A rough ride to the future - James Lovelock](https://www.amazon.com/Rough-Ride-Future/dp/B01GOE8HDW/) - 3/2023 (:thumbsup:)
 
 * [The end of the world is just the beginning - Peter Zeihan](https://www.amazon.com/End-World-Just-Beginning-Globalization/dp/006323047X) - 02/2023 (:thumbsup:)
