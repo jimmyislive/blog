@@ -1,3 +1,11 @@
+Submodule located in:
+   https://github.com/jimmyislive/tale-hugo/tree/master
+   
 To add a new section:
    1. Edit en.toml
    2. Edit layout/partials/header-menu.html
+
+To pull submodules:
+   git submodule update --init --recursive
+
+
