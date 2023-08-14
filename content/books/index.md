@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Factfulness - Hans Rosling](https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814) - 8/2023
+
 * [Evicted - Matthew Desmond](https://www.amazon.com/Evicted-Poverty-Profit-American-City/dp/0553447459) - 5/2023 (:thumbsup:)
 
 * [Decoding Reality: The universe as quantum information - Vlatko Vedral](https://www.amazon.com/Decoding-Reality-Universe-Quantum-Information/dp/0199695741) - 4/2023
