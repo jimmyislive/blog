@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Backyard Guide to the Night Sky - Andrew Fazekas](https://www.amazon.com/National-Geographic-Backyard-Guide-Night/dp/1426220154) - 8/2023 (:thumbsup:)
+
 * [Factfulness - Hans Rosling](https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814) - 8/2023
 
 * [Evicted - Matthew Desmond](https://www.amazon.com/Evicted-Poverty-Profit-American-City/dp/0553447459) - 5/2023 (:thumbsup:)
