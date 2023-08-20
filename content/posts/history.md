@@ -7,6 +7,8 @@ tags: ["musings"]
 
 For most of us history is something that happened far back in the past, with no relevance to us now. That's just not true. A lot of what we consider "far off in the past" is actually quite recent (in relative terms). e.g. the cold war got over just 30 years ago. 200 years ago, Napolean was still around ! The technological progress of man in the last 100 years has been more than all of the progress we have made since we walked the earth. Maybe its this rapid pace of innovation that makes history seem...like history ! Like a snowball that keep going faster as it progresses downhill. Here are some dates that helped me get perspective of where we are and how far (or not) we have come since the early days.
 
+**10,000 BC** : Dawn of agriculture (humans made the transition from hunter gatherers)
+
 **470 BC - 399 BC** : Socrates
 
 **336 BC - 323 BC** : Alexander the Great
@@ -17,6 +19,8 @@ For most of us history is something that happened far back in the past, with no 
 
 **395 - 1453** : Eastern Roman Empire
 
+**950** : Gunpowder invented in China (Changed the way wars were fought)
+
 **1095 - 1291** : [Crusades](https://en.wikipedia.org/wiki/Crusades)
 
 **1492** : Christopher Columbus 'discovered' America
@@ -26,6 +30,10 @@ For most of us history is something that happened far back in the past, with no 
 **1600** : East India Company founded
 
 **1712** : Thomas Newcomen invents the first steam engine
+
+**1776** : American declaration of independence
+
+**1789 - 1799** : French Revolution
 
 **1803 -  1815** : [Napoleonic Wars](https://en.wikipedia.org/wiki/Napoleonic_Wars)
 
@@ -41,6 +49,6 @@ For most of us history is something that happened far back in the past, with no 
 
 **1972** : Nixon meets Mao (opening up China to the world)
 
-**1989** : Berlin Wall fell
+**1989** : Berlin Wall fell (marking the failure of communism)
 
 
