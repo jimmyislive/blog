@@ -5,6 +5,9 @@ To add a new section:
    1. Edit en.toml
    2. Edit layout/partials/header-menu.html
 
+To get to submodule:
+	cd themes/tale-hugo
+
 To pull submodules:
    git submodule update --init --recursive
 
