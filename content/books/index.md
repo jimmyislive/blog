@@ -10,6 +10,10 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [The Obesity Code - Jason Fung](https://www.amazon.com/Obesity-Code-Unlocking-Secrets-Weight/dp/1771641258) - 10/2023
+
+* [Omon Ra - Victor Pelevin](https://www.amazon.com/Omon-Ra-Victor-Pelevin/dp/0811213641) - 10/2023
+
 * [Backyard Guide to the Night Sky - Andrew Fazekas](https://www.amazon.com/National-Geographic-Backyard-Guide-Night/dp/1426220154) - 8/2023 (:thumbsup:)
 
 * [Factfulness - Hans Rosling](https://www.amazon.com/Factfulness-Reasons-World-Things-Better/dp/1250107814) - 8/2023
