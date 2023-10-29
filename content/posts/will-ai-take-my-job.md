@@ -1,7 +1,7 @@
 ---
 title: "Will AI take my job ?"
 date: 2023-10-15
-draft: true
+draft: false
 tags: ["musings", "tech"]
 ---
 Whenever a new technology becomes commonplace, there will be disruptions. Technology and their associated disruptions have occurred throughout history. e.g. The monks / clergy were primarily responsible for making books (by hand). This restricted the flow of knowledge. Then the printing press came along. In the 1920s, telephone companies employed thousands of folks as operators. Today algorithms have largely taken over. Essentially any manual / repetitive task was automated out of existence. This process of creative destruction is nothing new.
