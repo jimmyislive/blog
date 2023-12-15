@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [The coddling of the american mind - Greg Lukianoff / Jonathan Haidt](https://www.thecoddling.com) - 12/2023 (:thumbsup:)
+
 * [The Obesity Code - Jason Fung](https://www.amazon.com/Obesity-Code-Unlocking-Secrets-Weight/dp/1771641258) - 10/2023
 
 * [Omon Ra - Victor Pelevin](https://www.amazon.com/Omon-Ra-Victor-Pelevin/dp/0811213641) - 10/2023
