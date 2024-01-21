@@ -8,7 +8,7 @@ categories: []
 draft: false
 ---
 
-* [OneHumanRace](https://onehumanrace.io)
+* [OneHumanRace](https://ohr-prod.web.app)
 
     >Trade your time/knowledge/skills for contributions to a charity of your choice.
 
