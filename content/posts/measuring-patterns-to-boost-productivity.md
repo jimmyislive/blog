@@ -43,3 +43,5 @@ In the above graph, everyone on the team is contributing meaningfully to the cod
 By keeping a running dashboard of such proxy metrics, it can give the team a convenient way to track and improve productivity. 
 
 Managing teams is hard. Giving and taking feedback is hard. But it's necessary to maintain high levels of productivity else teams / products just wither away. How you use a tool is just as important as the tool itself. Hopefully the approaches described here can give you a practical, unbiased and fair framework to build from.
+
+PS: In case anyone is interested, here is a great book that suggests similar techniques to bring healthcare costs down: [The Price We Pay by Marty Makary](https://www.amazon.com/Price-We-Pay-American-Care/dp/1635574110)
