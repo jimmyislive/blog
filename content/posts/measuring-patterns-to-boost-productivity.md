@@ -40,11 +40,6 @@ In the above graph, most team members approve a reasonable number of PRs, except
 In the above graph, everyone on the team is contributing meaningfully to the codebase in terms of their commits. (Maybe it's time to teach emp5 how they can squash their commits though !)
 
 
-By keeping a running dashboard of such proxy metrics, it can give the team a convenient way to track and improve productivity.
+By keeping a running dashboard of such proxy metrics, it can give the team a convenient way to track and improve productivity. 
 
-
-
-
-
-
-
+Managing teams is hard. Giving and taking feedback is hard. But it's necessary to maintain high levels of productivity else teams / products just wither away. How you use a tool is just as important as the tool itself. Hopefully the approaches described here can give you a practical, unbiased and fair framework to build from.
