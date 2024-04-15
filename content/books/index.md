@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [The Price We Pay - Marty Makary](https://www.amazon.com/Price-We-Pay-American-Care/dp/1635574110) - 03/2024
+
 * [The Lessons of History - Will & Ariel Durant](https://www.amazon.com/Lessons-History-Will-Durant/dp/143914995X) - 01/2024
 
 * [Recoding America - Jennifer Pahlka](https://us.macmillan.com/books/9781250266774/recodingamerica) - 01/2024
