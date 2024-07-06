@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+*[The War Below: Lithium, Copper, and the Global Battle to Power Our Lives - Ernest Scheyder](https://www.amazon.com/War-Below-Lithium-Copper-Global/dp/1668011808) - 06/2024 (:thumbsup:)
+
 * [The Price We Pay - Marty Makary](https://www.amazon.com/Price-We-Pay-American-Care/dp/1635574110) - 03/2024 (:thumbsup:)
 
 * [The Lessons of History - Will & Ariel Durant](https://www.amazon.com/Lessons-History-Will-Durant/dp/143914995X) - 01/2024
