@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Man and Technics - Oswald Spengler](https://www.amazon.com/Man-Technics-Contribution-Philosophy-Life/dp/1910524174) - 11/2024
+
 * [Being Mortal - Atul Gawande](https://www.amazon.com/Being-Mortal-Illness-Medicine-Matters/dp/1250081246) - 08/2024 (:thumbsup:)
 
 * [The War Below: Lithium, Copper, and the Global Battle to Power Our Lives - Ernest Scheyder](https://www.amazon.com/War-Below-Lithium-Copper-Global/dp/1668011808) - 06/2024 (:thumbsup:)
