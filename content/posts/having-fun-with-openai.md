@@ -16,7 +16,7 @@ I chose a [post](https://jimmyislive.dev/posts/tailscale/) I had written a while
 
 First, get the content of that page which contains all the html tags:
 
-```python
+{{< highlight python "linenos=table" >}}
 def download_page(url: str) -> str:
     response = requests.get(url)
     html_content = response.content
@@ -24,13 +24,13 @@ def download_page(url: str) -> str:
     html_content = str(html_content).replace('"', '\\"').replace("'", "\\'")
 
     return html_content
-```
+{{< / highlight >}}
 
 Don't forget to escape the text as bove.
 
 Once I got the text, all I had to do was send it to openAI with the aprpopriate prompt.
 
-```python
+{{< highlight python "linenos=table" >}}
 client = OpenAI()
 completion = client.chat.completions.create(
     model="gpt-4o-mini",
@@ -44,13 +44,13 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message.content)
-```
+{{< / highlight >}}
 
 The first is the `system` prompt telling the model what it is supposed to do. The second is the `user` prompt which provides the model with the actual task.
 
 lo and behold !
 
-```
+{{< highlight plaintext "linenos=table" >}}
 Setting up a private network with Tailscale
 
 Written by Jimmy John on December 29, 2022
@@ -74,4 +74,4 @@ I then created a dummy file called hello_tailscale.txt on the macbook. You can u
 Under the hood, after authentication, when each device is added to the tail network, the auto generated public key is added to the Tailscale co-ordination server. This public key is used to identify the device i.e node on the private network. After that, data is directly transferred peer-to-peer between nodes using the auto generated private key. (Note that the private key never leaves the node and data transfer happens peer-to-peer). This is also called zero trust networking. The control plane, i.e., coordination server is used only to store public keys of the nodes, domains, and some other metadata which is downloaded by all the nodes.
 
 There is a lot more you can do with Tailscale. Head over to the docs if you are curious.
-```
+{{< / highlight >}}
