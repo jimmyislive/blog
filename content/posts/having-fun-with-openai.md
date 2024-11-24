@@ -77,9 +77,10 @@ There is a lot more you can do with Tailscale. Head over to the docs if you are 
 {{< / highlight >}}
 
 **Book Recommendations**
+
 I enjoy reading. My [books](https://jimmyislive.dev/books/) page lists a lot of the books I have read recently. So I decided to ask OpenAI to recommend me some new books based on the ones I liked.
 
-The books I enjoyed typically have a "thumbs up" emoji next to it. So we'll first ask OpenAI to extract only those books. Then we'll feed this list into the model and ask it to suggest new ones based on my previous likes.
+The books I enjoyed typically have a (:thumbsup:) emoji next to it. So we'll first ask OpenAI to extract only those books. Then we'll feed this list into the model and ask it to suggest new ones based on my previous likes.
 
 *First lets pull down the books I liked*
 
@@ -99,7 +100,7 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message.content)
 {{< / highlight >}}
 
-The above extracted the books I liked i.e. the ones with the "thumbs-up" emoji.
+The above extracted the books I liked i.e. the ones with the (:thumbsup:) emoji.
 
 *Now to feed this into the model for new recommendations*
 
@@ -121,7 +122,7 @@ print(completion.choices[0].message.content)
 
 Boom...
 
-{{< highlight plaintext "linenos=table" >}}
+{{< highlight markdown "linenos=table" >}}
 Based on your interests in thought-provoking non-fiction, insightful explorations of society and human behavior, as well as introspective narratives, here are some book recommendations you might enjoy:
 
 1. **The Second Machine Age** by Erik Brynjolfsson and Andrew McAfee - A deep dive into how digital technology is transforming our economy and society.
