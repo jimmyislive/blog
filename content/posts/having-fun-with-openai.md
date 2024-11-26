@@ -8,7 +8,11 @@ AI is all the rage these days. New capabilities, that seemed impossible just a f
 
 I chose [OpenAI](https://openai.com), but you should be able to replicate these using any of the other models as well.
 
-**Printing the text of a html page**
+- [Printing the text of a html page](#text-to-html)
+- [Book Recommendations](#book-recommendations)
+- [Converting csv to json using json_schema](#csv-to-json)
+
+## Printing the text of a html page {#text-to-html}
 
 The first quick task I tried was to ask AI to print out the text of a html page i.e. without tags or images etc.
 
@@ -76,7 +80,7 @@ Under the hood, after authentication, when each device is added to the tail netw
 There is a lot more you can do with Tailscale. Head over to the docs if you are curious.
 {{< / highlight >}}
 
-**Book Recommendations**
+## Book Recommendations {#book-recommendations}
 
 I enjoy reading. My [books](https://jimmyislive.dev/books/) page lists a lot of the books I have read recently. So I decided to ask OpenAI to recommend me some new books based on the ones I liked.
 
@@ -149,3 +153,608 @@ These selections span themes of technology, society, health, and personal develo
 {{< / highlight >}}
 
 *NOTE*: Book recommendations are just that, recommendations. And hence can be very subjective. But these results are way better than I got when I did not prompt the model with past books I liked. e.g. without my past books, the model recommended books in the fiction / fantasy genre which I typically don't read.
+
+## Converting csv to json using json_schema {#csv-to-json}
+I pulled some csv data about traffic deaths from the [National Safety Council](https://injuryfacts.nsc.org/motor-vehicle/historical-fatality-trends/deaths-and-rates/). I then asked OpenAI to convert this into json while specifying a schema of how the output should look like.
+
+{{< highlight python "linenos=table" >}}
+client = OpenAI()
+completion = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        
+        {"role": "system", "content": "You will be provided with csv data. Convert this into json. "},
+        {
+            "role": "user",
+            "content": "The following is csv: Year,'Number of deaths','Vehicles (millions)','Vehicle miles (billions)','Drivers (millions)','Death rates Per 10,000 motor vehicles','Death rates Per 100,000,000 vehicle miles','Death rates Per 100,000 population'\n1970,'54,633',111.2,'1,120',111.5,4.92,4.88,26.8 \n1971,'54,381',116.3,'1,186',114.4,4.68,4.57,26.3 \n1972,'56,278',122.3,'1,268',118.4,4.60,4.43,26.9 \n1973,'55,511',129.8,'1,309',121.6,4.28,4.24,26.3 \n1974,'46,402',134.9,'1,290',125.6,3.44,3.59,21.8 \n1975,'45,853',137.9,'1,330',129.8,3.33,3.45,21.3 \n1976,'47,038',143.5,'1,412',133.9,3.28,3.33,21.6 \n1977,'49,510',148.8,'1,477',138.1,3.33,3.35,22.5 \n1978,'52,411',153.6,'1,548',140.8,3.41,3.39,23.6 \n1979,'53,524',159.6,'1,529',143.3,3.35,3.50,23.8 \n1980,'53,172',161.6,'1,521',145.3,3.29,3.50,23.4 \n1981,'51,385',164.1,'1,556',147.1,3.13,3.30,22.4 \n1982,'45,779',165.2,'1,592',150.3,2.77,2.88,19.8 \n1983,'44,452',169.4,'1,657',154.2,2.62,2.68,19.0 \n1984,'46,263',171.8,'1,718',155.4,2.69,2.69,19.6 \n1985,'45,901',177.1,'1,774',156.9,2.59,2.59,19.3 \n1986,'47,865',181.4,'1,835',159.5,2.63,2.60,19.9 \n1987,'48,290',183.9,'1,924',161.8,2.63,2.51,19.9 \n1988,'49,078',189.0,'2,026',162.9,2.60,2.42,20.1 \n1989,'47,575',191.7,'2,107',165.6,2.48,2.26,19.3 \n1990,'46,814',192.9,'2,148',167.0,2.43,2.18,18.8 \n1991,'43,536',192.5,'2,172',169.0,2.26,2.00,17.3 \n1992,'40,982',194.4,'2,240',173.1,2.11,1.83,16.1 \n1993,'41,893',198.0,'2,297',173.1,2.12,1.82,16.3 \n1994,'42,524',201.8,'2,360',175.4,2.11,1.80,16.3 \n1995,'43,363',205.3,'2,423',176.6,2.11,1.79,16.5 \n1996,'43,649',210.4,'2,486',179.5,2.07,1.76,16.5 \n1997,'43,458',211.5,'2,562',182.7,2.05,1.70,16.2 \n1998,'43,501',215.0,'2,632',185.2,2.02,1.65,16.1 \n1999,'42,401',220.5,'2,691',187.2,1.92,1.58,15.5 \n2000,'43,354',225.8,'2,747',190.6,1.92,1.58,15.8 \n2001,'43,788',235.3,'2,797',191.3,1.86,1.57,15.4 \n2002,'45,380',234.6,'2,856',194.3,1.93,1.59,15.8 \n2003,'44,757',236.8,'2,890',196.2,1.89,1.55,15.4 \n2004,'44,933',243.0,'2,965',199.0,1.85,1.52,15.3 \n2005,'45,343',247.4,'2,989',200.5,1.83,1.52,15.3 \n2006,'45,316',250.8,'3,014',202.8,1.81,1.50,15.2 \n2007,'43,945',254.4,'3,032',205.7,1.73,1.45,14.6 \n2008,'39,790',255.9,'2,976',208.3,1.55,1.34,13.1 \n2009,'36,216',254.2,'2,957',209.6,1.42,1.22,11.8 \n2010,'35,332',250.3,'2,967',210.1,1.41,1.19,11.4 \n2011,'35,303',253.2,'2,950',211.9,1.39,1.20,11.3 \n2012,'36,415',253.6,'2,969',211.8,1.44,1.23,11.6 \n2013,'35,369',255.9,'2,988',212.2,1.38,1.18,11.2 \n2014,'35,398',260.3,'3,026',214.1,1.36,1.17,11.1 \n2015,'37,757',263.6,'3,095',218.1,1.43,1.22,11.8 \n2016,'40,327',268.8,'3,174',221.7,1.50,1.27,12.5 \n2017,'40,231',272.5,'3,212',225.3,1.48,1.25,12.4 \n2018,'39,404',276.6,'3,240',227.6,1.42,1.22,12.0 \n2019,'39,107',276.5,'3,262',228.7,1.41,1.20,11.9 \n2020,'42,338',275.9,'2,904',228.2,1.53,1.46,12.9 \n2021,'46,980',282.4,'3,140',232.8,1.53,1.38,14.2 \n2022,'46,027',283.4,'3,196',235.1,1.50,1.33,13.8 \n"
+        }
+    ],
+    response_format={
+        "type": "json_schema",
+        "json_schema": {
+            "name": "highway_taffic_safety_schema",
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "year": {
+                        "description": "Year",
+                        "type": "integer"
+                    },
+                    "num_of_deaths": {
+                        "description": "Number of deaths",
+                        "type": "number"
+                    },
+                    "vehicle_count": {
+                        "description": "Vehicles (millions)",
+                        "type": "number"
+                    },
+                    "venhicle_miles": {
+                        "description": "Vehicle miles (billions)",
+                        "type": "number"
+                    },
+                    "driver_count": {
+                        "description": "Drivers (millions)",
+                        "type": "number"
+                    },
+                    "death_rate_vehicles": {
+                        "description": "Death rates Per 10,000 motor vehicles",
+                        "type": "number"
+                    },
+                    "death_rate_vehicle_miles": {
+                        "description": "Death rates Per 100,000,000 vehicle miles",
+                        "type": "number"
+                    },
+                    "death_rate_population": {
+                        "description": "Death rates Per 100,000 population",
+                        "type": "number"
+                    }
+
+                },
+                "additionalProperties": False
+            }
+        }
+    }
+)
+
+print(completion.choices[0].message.content)
+{{< / highlight >}}
+
+And the result...
+
+{{< highlight json "linenos=table" >}}
+{
+  "highway_traffic_safety_data": [
+    {
+      "year": 1970,
+      "num_of_deaths": 54633,
+      "vehicle_count": 111.2,
+      "venhicle_miles": 1120,
+      "driver_count": 111.5,
+      "death_rate_vehicles": 4.92,
+      "death_rate_vehicle_miles": 4.88,
+      "death_rate_population": 26.8
+    },
+    {
+      "year": 1971,
+      "num_of_deaths": 54381,
+      "vehicle_count": 116.3,
+      "venhicle_miles": 1186,
+      "driver_count": 114.4,
+      "death_rate_vehicles": 4.68,
+      "death_rate_vehicle_miles": 4.57,
+      "death_rate_population": 26.3
+    },
+    {
+      "year": 1972,
+      "num_of_deaths": 56278,
+      "vehicle_count": 122.3,
+      "venhicle_miles": 1268,
+      "driver_count": 118.4,
+      "death_rate_vehicles": 4.60,
+      "death_rate_vehicle_miles": 4.43,
+      "death_rate_population": 26.9
+    },
+    {
+      "year": 1973,
+      "num_of_deaths": 55511,
+      "vehicle_count": 129.8,
+      "venhicle_miles": 1309,
+      "driver_count": 121.6,
+      "death_rate_vehicles": 4.28,
+      "death_rate_vehicle_miles": 4.24,
+      "death_rate_population": 26.3
+    },
+    {
+      "year": 1974,
+      "num_of_deaths": 46402,
+      "vehicle_count": 134.9,
+      "venhicle_miles": 1290,
+      "driver_count": 125.6,
+      "death_rate_vehicles": 3.44,
+      "death_rate_vehicle_miles": 3.59,
+      "death_rate_population": 21.8
+    },
+    {
+      "year": 1975,
+      "num_of_deaths": 45853,
+      "vehicle_count": 137.9,
+      "venhicle_miles": 1330,
+      "driver_count": 129.8,
+      "death_rate_vehicles": 3.33,
+      "death_rate_vehicle_miles": 3.45,
+      "death_rate_population": 21.3
+    },
+    {
+      "year": 1976,
+      "num_of_deaths": 47038,
+      "vehicle_count": 143.5,
+      "venhicle_miles": 1412,
+      "driver_count": 133.9,
+      "death_rate_vehicles": 3.28,
+      "death_rate_vehicle_miles": 3.33,
+      "death_rate_population": 21.6
+    },
+    {
+      "year": 1977,
+      "num_of_deaths": 49510,
+      "vehicle_count": 148.8,
+      "venhicle_miles": 1477,
+      "driver_count": 138.1,
+      "death_rate_vehicles": 3.33,
+      "death_rate_vehicle_miles": 3.35,
+      "death_rate_population": 22.5
+    },
+    {
+      "year": 1978,
+      "num_of_deaths": 52411,
+      "vehicle_count": 153.6,
+      "venhicle_miles": 1548,
+      "driver_count": 140.8,
+      "death_rate_vehicles": 3.41,
+      "death_rate_vehicle_miles": 3.39,
+      "death_rate_population": 23.6
+    },
+    {
+      "year": 1979,
+      "num_of_deaths": 53524,
+      "vehicle_count": 159.6,
+      "venhicle_miles": 1529,
+      "driver_count": 143.3,
+      "death_rate_vehicles": 3.35,
+      "death_rate_vehicle_miles": 3.50,
+      "death_rate_population": 23.8
+    },
+    {
+      "year": 1980,
+      "num_of_deaths": 53172,
+      "vehicle_count": 161.6,
+      "venhicle_miles": 1521,
+      "driver_count": 145.3,
+      "death_rate_vehicles": 3.29,
+      "death_rate_vehicle_miles": 3.50,
+      "death_rate_population": 23.4
+    },
+    {
+      "year": 1981,
+      "num_of_deaths": 51385,
+      "vehicle_count": 164.1,
+      "venhicle_miles": 1556,
+      "driver_count": 147.1,
+      "death_rate_vehicles": 3.13,
+      "death_rate_vehicle_miles": 3.30,
+      "death_rate_population": 22.4
+    },
+    {
+      "year": 1982,
+      "num_of_deaths": 45779,
+      "vehicle_count": 165.2,
+      "venhicle_miles": 1592,
+      "driver_count": 150.3,
+      "death_rate_vehicles": 2.77,
+      "death_rate_vehicle_miles": 2.88,
+      "death_rate_population": 19.8
+    },
+    {
+      "year": 1983,
+      "num_of_deaths": 44452,
+      "vehicle_count": 169.4,
+      "venhicle_miles": 1657,
+      "driver_count": 154.2,
+      "death_rate_vehicles": 2.62,
+      "death_rate_vehicle_miles": 2.68,
+      "death_rate_population": 19.0
+    },
+    {
+      "year": 1984,
+      "num_of_deaths": 46263,
+      "vehicle_count": 171.8,
+      "venhicle_miles": 1718,
+      "driver_count": 155.4,
+      "death_rate_vehicles": 2.69,
+      "death_rate_vehicle_miles": 2.69,
+      "death_rate_population": 19.6
+    },
+    {
+      "year": 1985,
+      "num_of_deaths": 45901,
+      "vehicle_count": 177.1,
+      "venhicle_miles": 1774,
+      "driver_count": 156.9,
+      "death_rate_vehicles": 2.59,
+      "death_rate_vehicle_miles": 2.59,
+      "death_rate_population": 19.3
+    },
+    {
+      "year": 1986,
+      "num_of_deaths": 47865,
+      "vehicle_count": 181.4,
+      "venhicle_miles": 1835,
+      "driver_count": 159.5,
+      "death_rate_vehicles": 2.63,
+      "death_rate_vehicle_miles": 2.60,
+      "death_rate_population": 19.9
+    },
+    {
+      "year": 1987,
+      "num_of_deaths": 48290,
+      "vehicle_count": 183.9,
+      "venhicle_miles": 1924,
+      "driver_count": 161.8,
+      "death_rate_vehicles": 2.63,
+      "death_rate_vehicle_miles": 2.51,
+      "death_rate_population": 19.9
+    },
+    {
+      "year": 1988,
+      "num_of_deaths": 49078,
+      "vehicle_count": 189.0,
+      "venhicle_miles": 2026,
+      "driver_count": 162.9,
+      "death_rate_vehicles": 2.60,
+      "death_rate_vehicle_miles": 2.42,
+      "death_rate_population": 20.1
+    },
+    {
+      "year": 1989,
+      "num_of_deaths": 47575,
+      "vehicle_count": 191.7,
+      "venhicle_miles": 2107,
+      "driver_count": 165.6,
+      "death_rate_vehicles": 2.48,
+      "death_rate_vehicle_miles": 2.26,
+      "death_rate_population": 19.3
+    },
+    {
+      "year": 1990,
+      "num_of_deaths": 46814,
+      "vehicle_count": 192.9,
+      "venhicle_miles": 2148,
+      "driver_count": 167.0,
+      "death_rate_vehicles": 2.43,
+      "death_rate_vehicle_miles": 2.18,
+      "death_rate_population": 18.8
+    },
+    {
+      "year": 1991,
+      "num_of_deaths": 43536,
+      "vehicle_count": 192.5,
+      "venhicle_miles": 2172,
+      "driver_count": 169.0,
+      "death_rate_vehicles": 2.26,
+      "death_rate_vehicle_miles": 2.00,
+      "death_rate_population": 17.3
+    },
+    {
+      "year": 1992,
+      "num_of_deaths": 40982,
+      "vehicle_count": 194.4,
+      "venhicle_miles": 2240,
+      "driver_count": 173.1,
+      "death_rate_vehicles": 2.11,
+      "death_rate_vehicle_miles": 1.83,
+      "death_rate_population": 16.1
+    },
+    {
+      "year": 1993,
+      "num_of_deaths": 41893,
+      "vehicle_count": 198.0,
+      "venhicle_miles": 2297,
+      "driver_count": 173.1,
+      "death_rate_vehicles": 2.12,
+      "death_rate_vehicle_miles": 1.82,
+      "death_rate_population": 16.3
+    },
+    {
+      "year": 1994,
+      "num_of_deaths": 42524,
+      "vehicle_count": 201.8,
+      "venhicle_miles": 2360,
+      "driver_count": 175.4,
+      "death_rate_vehicles": 2.11,
+      "death_rate_vehicle_miles": 1.80,
+      "death_rate_population": 16.3
+    },
+    {
+      "year": 1995,
+      "num_of_deaths": 43363,
+      "vehicle_count": 205.3,
+      "venhicle_miles": 2423,
+      "driver_count": 176.6,
+      "death_rate_vehicles": 2.11,
+      "death_rate_vehicle_miles": 1.79,
+      "death_rate_population": 16.5
+    },
+    {
+      "year": 1996,
+      "num_of_deaths": 43649,
+      "vehicle_count": 210.4,
+      "venhicle_miles": 2486,
+      "driver_count": 179.5,
+      "death_rate_vehicles": 2.07,
+      "death_rate_vehicle_miles": 1.76,
+      "death_rate_population": 16.5
+    },
+    {
+      "year": 1997,
+      "num_of_deaths": 43458,
+      "vehicle_count": 211.5,
+      "venhicle_miles": 2562,
+      "driver_count": 182.7,
+      "death_rate_vehicles": 2.05,
+      "death_rate_vehicle_miles": 1.70,
+      "death_rate_population": 16.2
+    },
+    {
+      "year": 1998,
+      "num_of_deaths": 43501,
+      "vehicle_count": 215.0,
+      "venhicle_miles": 2632,
+      "driver_count": 185.2,
+      "death_rate_vehicles": 2.02,
+      "death_rate_vehicle_miles": 1.65,
+      "death_rate_population": 16.1
+    },
+    {
+      "year": 1999,
+      "num_of_deaths": 42401,
+      "vehicle_count": 220.5,
+      "venhicle_miles": 2691,
+      "driver_count": 187.2,
+      "death_rate_vehicles": 1.92,
+      "death_rate_vehicle_miles": 1.58,
+      "death_rate_population": 15.5
+    },
+    {
+      "year": 2000,
+      "num_of_deaths": 43354,
+      "vehicle_count": 225.8,
+      "venhicle_miles": 2747,
+      "driver_count": 190.6,
+      "death_rate_vehicles": 1.92,
+      "death_rate_vehicle_miles": 1.58,
+      "death_rate_population": 15.8
+    },
+    {
+      "year": 2001,
+      "num_of_deaths": 43788,
+      "vehicle_count": 235.3,
+      "venhicle_miles": 2797,
+      "driver_count": 191.3,
+      "death_rate_vehicles": 1.86,
+      "death_rate_vehicle_miles": 1.57,
+      "death_rate_population": 15.4
+    },
+    {
+      "year": 2002,
+      "num_of_deaths": 45380,
+      "vehicle_count": 234.6,
+      "venhicle_miles": 2856,
+      "driver_count": 194.3,
+      "death_rate_vehicles": 1.93,
+      "death_rate_vehicle_miles": 1.59,
+      "death_rate_population": 15.8
+    },
+    {
+      "year": 2003,
+      "num_of_deaths": 44757,
+      "vehicle_count": 236.8,
+      "venhicle_miles": 2890,
+      "driver_count": 196.2,
+      "death_rate_vehicles": 1.89,
+      "death_rate_vehicle_miles": 1.55,
+      "death_rate_population": 15.4
+    },
+    {
+      "year": 2004,
+      "num_of_deaths": 44933,
+      "vehicle_count": 243.0,
+      "venhicle_miles": 2965,
+      "driver_count": 199.0,
+      "death_rate_vehicles": 1.85,
+      "death_rate_vehicle_miles": 1.52,
+      "death_rate_population": 15.3
+    },
+    {
+      "year": 2005,
+      "num_of_deaths": 45343,
+      "vehicle_count": 247.4,
+      "venhicle_miles": 2989,
+      "driver_count": 200.5,
+      "death_rate_vehicles": 1.83,
+      "death_rate_vehicle_miles": 1.52,
+      "death_rate_population": 15.3
+    },
+    {
+      "year": 2006,
+      "num_of_deaths": 45316,
+      "vehicle_count": 250.8,
+      "venhicle_miles": 3014,
+      "driver_count": 202.8,
+      "death_rate_vehicles": 1.81,
+      "death_rate_vehicle_miles": 1.50,
+      "death_rate_population": 15.2
+    },
+    {
+      "year": 2007,
+      "num_of_deaths": 43945,
+      "vehicle_count": 254.4,
+      "venhicle_miles": 3032,
+      "driver_count": 205.7,
+      "death_rate_vehicles": 1.73,
+      "death_rate_vehicle_miles": 1.45,
+      "death_rate_population": 14.6
+    },
+    {
+      "year": 2008,
+      "num_of_deaths": 39790,
+      "vehicle_count": 255.9,
+      "venhicle_miles": 2976,
+      "driver_count": 208.3,
+      "death_rate_vehicles": 1.55,
+      "death_rate_vehicle_miles": 1.34,
+      "death_rate_population": 13.1
+    },
+    {
+      "year": 2009,
+      "num_of_deaths": 36216,
+      "vehicle_count": 254.2,
+      "venhicle_miles": 2957,
+      "driver_count": 209.6,
+      "death_rate_vehicles": 1.42,
+      "death_rate_vehicle_miles": 1.22,
+      "death_rate_population": 11.8
+    },
+    {
+      "year": 2010,
+      "num_of_deaths": 35332,
+      "vehicle_count": 250.3,
+      "venhicle_miles": 2967,
+      "driver_count": 210.1,
+      "death_rate_vehicles": 1.41,
+      "death_rate_vehicle_miles": 1.19,
+      "death_rate_population": 11.4
+    },
+    {
+      "year": 2011,
+      "num_of_deaths": 35303,
+      "vehicle_count": 253.2,
+      "venhicle_miles": 2950,
+      "driver_count": 211.9,
+      "death_rate_vehicles": 1.39,
+      "death_rate_vehicle_miles": 1.20,
+      "death_rate_population": 11.3
+    },
+    {
+      "year": 2012,
+      "num_of_deaths": 36415,
+      "vehicle_count": 253.6,
+      "venhicle_miles": 2969,
+      "driver_count": 211.8,
+      "death_rate_vehicles": 1.44,
+      "death_rate_vehicle_miles": 1.23,
+      "death_rate_population": 11.6
+    },
+    {
+      "year": 2013,
+      "num_of_deaths": 35369,
+      "vehicle_count": 255.9,
+      "venhicle_miles": 2988,
+      "driver_count": 212.2,
+      "death_rate_vehicles": 1.38,
+      "death_rate_vehicle_miles": 1.18,
+      "death_rate_population": 11.2
+    },
+    {
+      "year": 2014,
+      "num_of_deaths": 35398,
+      "vehicle_count": 260.3,
+      "venhicle_miles": 3026,
+      "driver_count": 214.1,
+      "death_rate_vehicles": 1.36,
+      "death_rate_vehicle_miles": 1.17,
+      "death_rate_population": 11.1
+    },
+    {
+      "year": 2015,
+      "num_of_deaths": 37757,
+      "vehicle_count": 263.6,
+      "venhicle_miles": 3095,
+      "driver_count": 218.1,
+      "death_rate_vehicles": 1.43,
+      "death_rate_vehicle_miles": 1.22,
+      "death_rate_population": 11.8
+    },
+    {
+      "year": 2016,
+      "num_of_deaths": 40327,
+      "vehicle_count": 268.8,
+      "venhicle_miles": 3174,
+      "driver_count": 221.7,
+      "death_rate_vehicles": 1.50,
+      "death_rate_vehicle_miles": 1.27,
+      "death_rate_population": 12.5
+    },
+    {
+      "year": 2017,
+      "num_of_deaths": 40231,
+      "vehicle_count": 272.5,
+      "venhicle_miles": 3212,
+      "driver_count": 225.3,
+      "death_rate_vehicles": 1.48,
+      "death_rate_vehicle_miles": 1.25,
+      "death_rate_population": 12.4
+    },
+    {
+      "year": 2018,
+      "num_of_deaths": 39404,
+      "vehicle_count": 276.6,
+      "venhicle_miles": 3240,
+      "driver_count": 227.6,
+      "death_rate_vehicles": 1.42,
+      "death_rate_vehicle_miles": 1.22,
+      "death_rate_population": 12.0
+    },
+    {
+      "year": 2019,
+      "num_of_deaths": 39107,
+      "vehicle_count": 276.5,
+      "venhicle_miles": 3262,
+      "driver_count": 228.7,
+      "death_rate_vehicles": 1.41,
+      "death_rate_vehicle_miles": 1.20,
+      "death_rate_population": 11.9
+    },
+    {
+      "year": 2020,
+      "num_of_deaths": 42338,
+      "vehicle_count": 275.9,
+      "venhicle_miles": 2904,
+      "driver_count": 228.2,
+      "death_rate_vehicles": 1.53,
+      "death_rate_vehicle_miles": 1.46,
+      "death_rate_population": 12.9
+    },
+    {
+      "year": 2021,
+      "num_of_deaths": 46980,
+      "vehicle_count": 282.4,
+      "venhicle_miles": 3140,
+      "driver_count": 232.8,
+      "death_rate_vehicles": 1.53,
+      "death_rate_vehicle_miles": 1.38,
+      "death_rate_population": 14.2
+    },
+    {
+      "year": 2022,
+      "num_of_deaths": 46027,
+      "vehicle_count": 283.4,
+      "venhicle_miles": 3196,
+      "driver_count": 235.1,
+      "death_rate_vehicles": 1.50,
+      "death_rate_vehicle_miles": 1.33,
+      "death_rate_population": 13.8
+    }
+  ]
+}
+{{< / highlight >}}
+
