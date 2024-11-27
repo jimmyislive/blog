@@ -114,5 +114,4 @@ If I still further decrease it to `1902.5400000000`, I get:
 
 **Masked Address:** : `Mission St, San Francisco, CA`
 
-
 In this way we can augment the capability of any model by using functions that return internal data e.g. from a proprietary DB call, API call etc
