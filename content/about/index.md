@@ -15,8 +15,6 @@ My interests revolve around technology, health, philosophy/spirituality and lear
 
 In a former life, I founded and sold [CodeEval](https://techcrunch.com/2012/08/02/hirevue-acquires-codeeval-a-programmer-evaluation-tool-for-recruiters/).
 
-*If you are looking to hire a seasoned tech exec, please [reach out](mailto:jimmyislive@gmail.com).*
-
 This blog is created via the awesome [Hugo](https://gohugo.io/) framework. It is hosted by [Netlify](https://www.netlify.com/). All the code for this site is available on [Github](https://github.com/jimmyislive/blog).
 
 This is my personal blog. (Views expressed here are my own). It is an attempt to open source my knowledge.  
