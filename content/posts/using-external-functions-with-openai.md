@@ -58,6 +58,7 @@ completion = client.chat.completions.create(
 
 print(completion.choices[0])
 
+
 {{< / highlight >}}
 
 Above, I defined a function: `population_density_by_zipcode` and described its purpose to OpenAI (not implementation). This provides OpenAI with the information that such a function is available for its use, should it choose to use it.
@@ -65,7 +66,8 @@ Above, I defined a function: `population_density_by_zipcode` and described its p
 When the above code is run, we get the following output:
 
 {{< highlight plaintext "linenos=table" >}}
-Choice(finish_reason='tool_calls', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal=None, role='assistant', audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_ORrpaCw5AnTxsJ16CLJt3Qvl', function=Function(arguments='{"zipcode":"94105"}', name='population_density_by_zipcode'), type='function')]))
+Choice(finish_reason='tool_calls', index=0, logprobs=None, message=ChatCompletionMessage(content=None, refusal=None, role='assistant', audio=None, function_call=None, tool_calls=[ChatCompletionMessageToolCall(id='call_ORrpaCw5XXXxsJXXXXJt3Xxx', function=Function(arguments='{"zipcode":"94105"}', name='population_density_by_zipcode'), type='function')]))
+
 {{< / highlight >}}
 
 OpenAI is telling us that the function we described needs to be called and the output of it sent back to it. The function call parameters are described as well.
@@ -92,6 +94,7 @@ final_response = client.chat.completions.create(
 )
 
 print(final_response.choices[0].message.content)
+
 {{< / highlight >}}
 
 Essentially, I replayed the message back to OpenAI, this time with the added result of the function call. Voila...
@@ -102,6 +105,7 @@ To preserve privacy while considering the population density of 3902.54 per squa
 **Geomasked Address:** "Near Mission St and 1st St, San Francisco, CA 94105"
 
 This maintains some location context while protecting the specific address.
+
 {{< / highlight >}}
 
 As you can see, the exact address has been masked to an approximate one. Yet it is in the same vicinity so it is still usable for any kind of analytics.
