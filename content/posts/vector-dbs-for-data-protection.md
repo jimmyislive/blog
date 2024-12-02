@@ -1,10 +1,10 @@
 ---
-title: "Vector DBs for Data Detection and Response"
+title: "Vector DBs for Data Protection"
 date: 2024-11-28
 draft: false
 tags: ["tech"]
 ---
-I was reading up some information on vector embeddings recently and started thinking about different use cases of it. One interesting use case was for Data Detection and Response. The thought exercise I had was that if we are able to track data access patters or data lineage and represent them as embeddings, then the embeddings of any anomalous / nefarious access pattern would have very little similarity with other embeddings.
+I was reading up some information on vector embeddings recently and started thinking about different use cases of it. One interesting use case was for Data Detection and Response. The thought exercise I had was that if we are able to track data access patters or [data lineage](https://en.wikipedia.org/wiki/Data_lineage) and represent them as embeddings, then the embeddings of any anomalous / nefarious access pattern would have very little similarity with other embeddings.
 
 Lets say our files have attributes like: `channel` and `owner`
 Let's say some valid actions on files could be: `copy`, `rename`, `zip` etc
@@ -87,4 +87,4 @@ Then, should a suspicious action happen, we could create an embedding for it and
 }
 {{< / highlight >}}
 
-Curious if there are any products out there that do something similar via embeddings.
+I see products such as [Cyberhaven](https://www.cyberhaven.com) doing similar things but, as far as I can tell, they seem to be using graph DBs. Curious if there are any products out there that do something similar via embeddings/vector DBs.
