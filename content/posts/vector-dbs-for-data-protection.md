@@ -87,4 +87,4 @@ Then, should a suspicious action happen, we could create an embedding for it and
 }
 {{< / highlight >}}
 
-I see products such as [Cyberhaven](https://www.cyberhaven.com) doing similar things but, as far as I can tell, they seem to be using graph DBs. Curious if there are any products out there that do something similar via embeddings/vector DBs.
+Most products doing similar things seem to be using graph DBs. Curious if there are any products out there that do something similar via embeddings/vector DBs.
