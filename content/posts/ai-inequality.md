@@ -60,7 +60,7 @@ More power, fewer players.
 
 ## Open Source
 
-Open source everything. Meta is doing a commendable job here. It opens the floodgates of innovation. Other companies that are not open sourcing their latest models, could however open source the older versions. For many vertical industries using just those older versions would help in significant productivity improvements.
+Open source everything. It opens the floodgates of innovation. Other companies that are not open sourcing their latest models, could however open source the older versions. For many vertical industries using just those older versions would help in significant productivity improvements.
 
 The big players cannot and don’t want to be in every vertical. Open sourcing tools, techniques and processes related to the latest in AI, can kickstart development by smaller players thereby spreading the gains of AI across society.
 
