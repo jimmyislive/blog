@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+*[Slaughterhouse Five - Kurt Vonnegut](https://www.amazon.com/Slaughterhouse-Five-Novel-Modern-Library-Novels/dp/0385333846) - 01/2025
+
 * [Open: An Autobiography - Andre Agassi](https://www.amazon.com/Open-Autobiography-Andre-Agassi/dp/0307388409) - 12/2024 (:thumbsup:)
 
 * [Animal Farm - George Orwell](https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341) - 11/2024
