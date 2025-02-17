@@ -7,7 +7,7 @@ tags: ["musings"]
 In 1930, the English economist and philosopher [John Maynard Keynes](https://en.wikipedia.org/wiki/John_Maynard_Keynes) wrote an essay titled [Economic Possibilities for our Grandchildren](http://www.econ.yale.edu/smith/econ116a/keynes1.pdf). An excerpt from it:
 
 
-```
+{{< highlight md "linenos=table" >}}
 It is common to hear people say that the epoch of enormous economic progress
 which characterised the nineteenth century is over; that the rapid improvement in the standard of life is now going to slow down --at any rate in Great Britain; that a decline in prosperity is more likely than an improvement in the decade which lies ahead of us.
 
@@ -17,7 +17,7 @@ I believe that this is a wildly mistaken interpretation of what is happening to 
 The prevailing world depression, the enormous anomaly of unemployment in a world full of wants, the disastrous mistakes we have made, blind us to what is going on under the surface to the true interpretation. of the trend of things. For I predict that both of the two opposed errors of pessimism which now make so much noise in the world will be proved wrong in our own time-the pessimism of the revolutionaries who think that things are so bad that nothing can save us but violent change, and the pessimism of the reactionaries who consider the balance of our economic and social life so precarious that we must risk no experiments.
 ...
 ...
-```
+{{< / highlight >}}
 
 Thing is, the above passage could just as easily have been written in 2025. And be just as relevant !
 
