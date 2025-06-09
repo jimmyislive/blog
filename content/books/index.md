@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Of Mice and Men - John Stienbeck](https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396) - 06/2025 (:thumbsup:)
+
 * [The Selfish Gene - Richard Dawkins](https://www.amazon.com/Selfish-Gene-Anniversary-Landmark-Science/dp/0198788606) - 05/2025
 
 * [Common Sense Nutrition - Colin E Champ](https://www.amazon.com/Common-Sense-Nutriton-Pragmatic-Complicated/dp/1735286214) - 03/2025
