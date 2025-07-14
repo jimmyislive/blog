@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [The Anxious Generation - Jonatha Haidt](https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036) - 07/2025 (:thumbsup:)
+
 * [Of Mice and Men - John Stienbeck](https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396) - 06/2025 (:thumbsup:)
 
 * [The Selfish Gene - Richard Dawkins](https://www.amazon.com/Selfish-Gene-Anniversary-Landmark-Science/dp/0198788606) - 05/2025
@@ -34,7 +36,7 @@ Some of the books I have recently read. (Items marked with a :thumbsup: are ones
 
 * [Recoding America - Jennifer Pahlka](https://us.macmillan.com/books/9781250266774/recodingamerica) - 01/2024
 
-* [The coddling of the american mind - Greg Lukianoff / Jonathan Haidt](https://www.thecoddling.com) - 12/2023 (:thumbsup:)
+* [The Coddling of the American Mind - Greg Lukianoff / Jonathan Haidt](https://www.thecoddling.com) - 12/2023 (:thumbsup:)
 
 * [The Obesity Code - Jason Fung](https://www.amazon.com/Obesity-Code-Unlocking-Secrets-Weight/dp/1771641258) - 10/2023
 
