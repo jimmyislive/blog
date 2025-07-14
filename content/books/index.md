@@ -10,7 +10,7 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
-* [The Anxious Generation - Jonatha Haidt](https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036) - 07/2025 (:thumbsup:)
+* [The Anxious Generation - Jonathan Haidt](https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036) - 07/2025 (:thumbsup:)
 
 * [Of Mice and Men - John Stienbeck](https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396) - 06/2025 (:thumbsup:)
 
