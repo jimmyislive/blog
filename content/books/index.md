@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [A Treasury of Kahlil Gibran - Kahlil Gibran](https://www.betterworldbooks.com/product/detail/a-treasury-of-kahlil-gibran-9780806504100) - 09/2025
+
 * [The Anxious Generation - Jonathan Haidt](https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036) - 07/2025 (:thumbsup:)
 
 * [Of Mice and Men - John Stienbeck](https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396) - 06/2025 (:thumbsup:)
