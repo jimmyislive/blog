@@ -1,7 +1,7 @@
 ---
 title: "The killer use case for GenAI"
 date: 2025-09-25
-draft: true
+draft: false
 tags: ["tech"]
 ---
 
