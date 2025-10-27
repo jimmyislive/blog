@@ -1,7 +1,7 @@
 ---
 title: "An MCP server for this blog"
 date: 2025-10-24
-draft: true
+draft: false
 tags: ["tech"]
 ---
 Caus, why not ?
