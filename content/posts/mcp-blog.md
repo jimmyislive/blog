@@ -32,7 +32,7 @@ Rather than posting code here, I'll be posting prompts for the code. (I'm using 
 
 Open the `mcp_jil` dir in Cursor
 
-**Prompt**: I have a venv setup inside .venv. I want to write an MCP server in python. It should provide capability to list and read resources. The resources are rooted in the url https://jimmyislive.dev . I want to be able to read the posts on the site and also the books available at https://jimmyislive.dev/books/. I don't need to get the book contents. I only need to list the books and their authors and urls where the book can be obtained.
+**Prompt**: ```I have a venv setup inside .venv. I want to write an MCP server in python. It should provide capability to list and read resources. The resources are rooted in the url https://jimmyislive.dev . I want to be able to read the posts on the site and also the books available at https://jimmyislive.dev/books/. I don't need to get the book contents. I only need to list the books and their authors and urls where the book can be obtained.```
 
 This gave me pretty much everything I needed. In 5 minutes I had an entire MCP server done and tested. 
 
