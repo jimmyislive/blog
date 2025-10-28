@@ -4,7 +4,7 @@ date: 2025-10-24
 draft: false
 tags: ["tech"]
 ---
-Caus, why not ?
+Caus, why not ? There are north of [6300 MCP servers](https://www.pulsemcp.com/servers) out there in the wild !
 
 If you don't know what MCP is, you can read about it [here](https://modelcontextprotocol.io/docs/getting-started/intro)
 
