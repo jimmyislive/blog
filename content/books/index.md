@@ -10,6 +10,8 @@ draft: false
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [How to Think About Money - Jonathan Clements](https://www.amazon.com/Think-About-Money-Jonathan-Clements/dp/1523770813) - 11/2025
+
 * [Just Mercy - Bryan Stevenson](https://www.amazon.com/Just-Mercy-Story-Justice-Redemption/dp/081298496X) - 11/2025 (:thumbsup:)
 
 * [A Treasury of Kahlil Gibran - Kahlil Gibran](https://www.betterworldbooks.com/product/detail/a-treasury-of-kahlil-gibran-9780806504100) - 09/2025
