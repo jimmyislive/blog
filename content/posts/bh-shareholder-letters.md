@@ -16,9 +16,15 @@ Now replace the "textile industry" with AI and "undifferentiated good" with LLMs
 
 >During 1981 we came quite close to a major purchase involving both a business and a manager we liked very much. However, the price finally demanded, considering alternative uses for the funds involved, would have left our owners worse off than before the purchase.  The empire would have been larger, but the citizenry would have been poorer.
 
-
 ([1981 Shareholder letter](https://www.berkshirehathaway.com/letters/1981.html))
 
 Compare this sentiment to the prevailing one of insane funding rounds without any product or acquisitions at eye popping numbers with little to no revenue.
+
+>If corporate pregnancy is going to be the consequence of corporate mating, the time to face that fact is before the moment of ecstasy.
+
+([1982 Shareholder letter](https://www.berkshirehathaway.com/letters/1982.html))
+
+lol !
+
 
 *PS: I have not read all the letters, but will update this blog as I read through them with intresting blurbs.*
