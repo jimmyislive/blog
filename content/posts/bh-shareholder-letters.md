@@ -36,7 +36,7 @@ lol !
 
 >We will not engage in unfriendly takeovers.  We can promise complete confidentiality and a very fast answer - customarily within five minutes - as to whether we’re interested.
 
-([1983 Shareholder letter]https://www.berkshirehathaway.com/letters/1983.html)
+([1983 Shareholder letter](https://www.berkshirehathaway.com/letters/1983.html))
 
 If you have ever engaged with a VC anytime, they are anything but fast. "Let's keep in touch" is the usual phrase. In order to make decisions, one should be absolutely clear as to what they are looking for. A deep conviction, rather than the "flavor of the month", which is usually someone else's convictions. Then, when you see something that impresses you, a decision is easy and instantaneous.
 
