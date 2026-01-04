@@ -8,10 +8,6 @@ categories: []
 draft: false
 ---
 
-* [OneHumanRace](https://ohr-prod.web.app)
-
-    >Trade your time/knowledge/skills for contributions to a charity of your choice.
-
 * [BioHacks](https://biohacks.jimmyislive.dev)
 
     >Utilities for bio chemists (or others) to play around with DNA sequences.
