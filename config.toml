@@ -17,3 +17,11 @@ author = "Jimmy John"
 [blackfriday]
    plainIDAnchors = true
    hrefTargetBlank = true  
+
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.122.0"
+
