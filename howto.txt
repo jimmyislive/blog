@@ -11,4 +11,5 @@ To get to submodule:
 To pull submodules:
    git submodule update --init --recursive
 
-
+To run on localdev:
+   hugo server

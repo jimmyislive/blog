@@ -7,6 +7,7 @@ lastmod:
 categories: []
 keywords: [books]
 draft: false
+layout: single
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 

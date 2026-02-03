@@ -6,6 +6,7 @@ publishdate:
 lastmod: 
 categories: []
 draft: false
+layout: single
 ---
 
 * [BioHacks](https://biohacks.jimmyislive.dev)

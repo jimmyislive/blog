@@ -9,19 +9,17 @@ enableRobotsTXT = true
 preserveTaxonomyNames = true
 
 [params]
-author = "Jimmy John"
+author.name = "Jimmy John"
+hideDarkModeToggle = true
 
 [taxonomies]
-  tag = "tags"
+tag = "tags"
 
 [blackfriday]
-   plainIDAnchors = true
-   hrefTargetBlank = true  
+plainIDAnchors = true
+hrefTargetBlank = true  
 
-[build]
-  command = "hugo"
-  publish = "public"
 
-[build.environment]
-  HUGO_VERSION = "0.122.0"
+
+
 

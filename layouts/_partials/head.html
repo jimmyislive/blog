@@ -1,0 +1,48 @@
+<head>
+    <!-- Google Analytics -->
+    {{ partial "google_analytics.html" . }}
+    <!--- OpenGraph metadata -->
+    {{ partial "opengraph.html" . }}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{- if .IsHome }}
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    {{- else if .Description }}
+    <meta name="description" content="{{ .Description }}">
+    {{- end }}
+
+    <title>{{- if .IsHome }}{{ .Site.Title }}{{- else }}{{ .Title }} &middot; {{ .Site.Title }}{{- end }}</title>
+
+    <!-- CSS -->
+    {{- $inServerMode := hugo.IsServer }}
+    {{- $cssTarget := "css/style.css" }}
+    {{- $cssOptions := cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath"
+    $cssTarget "outputStyle" "compressed") }}
+    {{- $style := resources.Get "scss/tale.scss" | toCSS $cssOptions }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+    {{ range .Site.Params.css -}}
+    <link rel="stylesheet" href="{{ . | relURL }}">
+    {{ end -}}
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ " images/favicon-64x64.png" | relURL }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ " images/apple-touch-icon.png" | relURL }}">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SDJ0D81L5C"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SDJ0D81L5C');
+    </script>
+
+</head>

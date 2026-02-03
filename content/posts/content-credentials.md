@@ -12,25 +12,23 @@ In an effort to provide such origin info about the content on this blog, I will 
 
 - Human-Created
 
-    No AI involved
+    *No AI involved*
 
 - AI-Assisted
 
-    Human wrote it, AI helped with editing/suggestions/research
-    Human made final decisions
+    *Human wrote it, AI helped with editing/suggestions/research. Human made final decisions*
 
 - AI-Generated, Reviewed
 
-    AI wrote the draft, human edited and approved
-    Human verified accuracy
+    *AI wrote the draft, human edited and approved. Human verified accuracy*
 
 - AI-Generated
 
-    Mostly or entirely AI with minimal human input
+    *Mostly or entirely AI with minimal human input*
 
 This is a low touch approach to indicate authorship which banks on personal integrity and transparency. 
 
-I would anticipate that most code generated would fall in the `AI-*` buckets, else it is a missed opportunity. Similarly, textual content would also primarily be `AI-Assisted`. The only `Human-Created` ones would be opinion pieces. Summaries would be an example of useful `AI-Generated` content.
+I would anticipate that most code snippets would fall in the `AI-*` buckets, else it is a missed opportunity. Similarly, textual content would also primarily be `AI-Assisted`. The only `Human-Created` ones would be opinion pieces. Summaries would be an example of useful `AI-Generated` content.
 
 We just need to have a pragmatic approach to AI !
 

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default " en" }}" class="light">
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "header.html" . }}
+    {{- if not .Site.Params.hideDarkModeToggle }}{{ partial "darkmode.html" . }}{{- end}}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+</body>
+
+</html>

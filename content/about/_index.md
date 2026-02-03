@@ -6,6 +6,7 @@ publishdate:
 lastmod: 
 categories: []
 draft: false
+layout: single
 ---
 My name is Jimmy and I am engineer / entrepreneur living and working in beautiful [Berkeley, CA](https://en.wikipedia.org/wiki/Berkeley,_California).
 
