@@ -9,6 +9,10 @@ draft: false
 layout: single
 ---
 
+* [How We AI](https://jimmyislive.github.io/how-we-ai/)
+
+    >Ways in which people use AI
+
 * [BioHacks](https://biohacks.jimmyislive.dev)
 
     >Utilities for bio chemists (or others) to play around with DNA sequences.
