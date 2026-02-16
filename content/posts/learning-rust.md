@@ -2,7 +2,7 @@
 title: "Learning Rust"
 date: 2026-02-16
 draft: false
-tags: ["tech", "human-created]
+tags: ["tech", "human-created"]
 ---
 I've always been curious about the [Rust Programming Language](https://rust-lang.org). It's got some very attractive properties like  memory safety, no GC pauses and is blazingly fast.
 
