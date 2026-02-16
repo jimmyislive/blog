@@ -141,7 +141,7 @@ Some of the books I have recently read. (Items marked with a :thumbsup: are ones
 
 * [The Billionaire Raj - James Crabtree](https://www.amazon.com/Billionaire-Raj-Journey-Through-Indias/dp/1524760064)
 
-    >All about the corruption / crony capitalism in India. A sad state of affiars indeed. To most folks born and raised in India though, it's nothing new. But to see it defining the future of the country is depressing. 
+    >All about the corruption / crony capitalism in India. A sad state of affairs indeed. To most folks born and raised in India though, it's nothing new. But to see it defining the future of the country is depressing. 
 
 * [Death by Food Pyramid - Denise Minger](https://www.amazon.com/gp/product/0984755128/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 
@@ -149,7 +149,7 @@ Some of the books I have recently read. (Items marked with a :thumbsup: are ones
 
 * [Shoe Dog - Phil Knight](https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike-ebook/dp/B0176M1A44) (:thumbsup:)
 
-    >Memoir of the creator of Nike. Great stroy of grit and passion. Essential reading for any entrepreneur. (Incidently, it was ghost written by J. R Moehringer)
+    >Memoir of the creator of Nike. Great story of grit and passion. Essential reading for any entrepreneur. (Incidently, it was ghost written by J. R Moehringer)
 
 * [Sapiens - Yuval Noah Harari](https://www.amazon.com/gp/product/0062316095/ref=ppx_yo_dt_b_asin_title_o06_s01?ie=UTF8&psc=1)
 
@@ -157,7 +157,7 @@ Some of the books I have recently read. (Items marked with a :thumbsup: are ones
 
 * [The Checklist Manifesto - Atul Gawande](https://www.amazon.com/gp/product/0312430000/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) (:thumbsup:)
 
-    >I started making checkists after reading this book !
+    >I started making checlists after reading this book !
 
 * [When Breadth Becomes Air - Paul Kalanithi](https://www.amazon.com/gp/product/1784701998/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1) (:thumbsup:)
 
