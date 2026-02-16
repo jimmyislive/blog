@@ -157,7 +157,7 @@ Some of the books I have recently read. (Items marked with a :thumbsup: are ones
 
 * [The Checklist Manifesto - Atul Gawande](https://www.amazon.com/gp/product/0312430000/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) (:thumbsup:)
 
-    >I started making checlists after reading this book !
+    >I started making checklists after reading this book !
 
 * [When Breadth Becomes Air - Paul Kalanithi](https://www.amazon.com/gp/product/1784701998/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1) (:thumbsup:)
 
