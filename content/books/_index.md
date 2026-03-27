@@ -11,6 +11,8 @@ layout: single
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [How Asia Works - Joe Studwell](https://www.amazon.com/How-Asia-Works-Joe-Studwell/dp/0802121322) - 03/2026 (:thumbsup:)
+
 * [The Autobiography of Malcolm X - (as told to) Alex Haley](https://www.amazon.com/Autobiography-Malcolm-Haley-Attallah-Shabazz/dp/0345902335) - 02/2026
 
 * [How to Think About Money - Jonathan Clements](https://www.amazon.com/Think-About-Money-Jonathan-Clements/dp/1523770813) - 11/2025
