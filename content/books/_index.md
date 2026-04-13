@@ -11,6 +11,8 @@ layout: single
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [The Soverign Individual - James Davidson and Lord William Rees-Mogg](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720) - 04/2026
+
 * [How Asia Works - Joe Studwell](https://www.amazon.com/How-Asia-Works-Joe-Studwell/dp/0802121322) - 03/2026 (:thumbsup:)
 
 * [The Autobiography of Malcolm X - (as told to) Alex Haley](https://www.amazon.com/Autobiography-Malcolm-Haley-Attallah-Shabazz/dp/0345902335) - 02/2026
@@ -77,7 +79,7 @@ Some of the books I have recently read. (Items marked with a :thumbsup: are ones
 
 * [Ikigai - Hector Garcia / Francesc Miralles](https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722) - 05/2022
 
-* [The Geography of Nowhere - James Howard Kunstler](https://www.thriftbooks.com/w/geography-of-nowhere-the-rise-and-decline-of-americas-man-made-landscape_james-howard-kunstler/252343/?resultid=6c9389f2-18c9-4548-b6fa-e50a72cf5f44#edition=2264395&idiq=2862438) - 02/2022 (:thumbsup:)
+* [The Geography of Nowhere - James Howard Kunstler](https://www.amazon.com/Geography-Nowhere-Americas-Man-Made-Landscape/dp/0671888250) - 02/2022 (:thumbsup:)
 
 * [Dumbing Us Down - John Taylor Gatto](https://www.amazon.com/Dumbing-Down-Curriculum-Compulsory-Schooling-dp-0865718547/dp/0865718547) - 01/2022
 
