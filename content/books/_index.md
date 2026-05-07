@@ -11,6 +11,8 @@ layout: single
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [Brave New World - Aldous Huxley](https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523) - 05/2026 (:thumbsup:)
+ 
 * [The Soverign Individual - James Davidson and Lord William Rees-Mogg](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720) - 04/2026
 
 * [How Asia Works - Joe Studwell](https://www.amazon.com/How-Asia-Works-Joe-Studwell/dp/0802121322) - 03/2026 (:thumbsup:)
