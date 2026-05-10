@@ -12,18 +12,29 @@ Back in those days folks were actually writing letters to each other. One of tho
 
 Somewhere during my teenage years I stopped though. And the album went onto a shelf. My mom found it with some of my old stuff at home and when I went for a vacation she gave it to me. I brought it back with me and then...back it went onto another shelf and then the attic. Several moves, houses and kids later, I found it again while cleaning up some old stuff. 
 
-And here we are. The album seems to have made it a point of constantly being found. So this time i'm going to immortalize it...online. Below i've uploaded images of the stamps I collected as a 10 year old kid ! Enjoy...
+And here we are. The album seems to have made it a point of constantly being found. So this time I'm going to immortalize it...online. Below I've uploaded images of the stamps I collected as a 10 year old kid ! Enjoy...
 
 {{< figure src="/images/stamps/stamps1.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps2.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps3.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps4.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps5.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps6.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps7.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps8.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps9.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps10.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps11.jpeg">}}
+---
 {{< figure src="/images/stamps/stamps12.jpeg">}}
 
