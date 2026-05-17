@@ -92,6 +92,6 @@ It's almost as if AI has become a checkbox to appease someone.
 
 AI is a truly powerful and transformational tool. Understanding what you can do with it takes time and patience. Software is still very much a people centered business. We will get more productive and may not need as many, but we need to find that out for ourselves. Ignore the hype.
 
+---
 
-
-I'm still very bullish on AI. When we finally reach equilibrium, I truly believe AI will be a net positive. We just need to invent our techniques, processes, ecosystems and ourselves to work in an AI First world. And like everything of value, that takes time.
+*I'm still very bullish on AI. When we finally reach equilibrium, I truly believe AI will be a net positive. We just need to invent our techniques, processes, ecosystems and ourselves to work in an AI First world. And like everything of value, that takes time.*
