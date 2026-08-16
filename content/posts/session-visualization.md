@@ -24,12 +24,12 @@ Before you start prompting Claude, you will have to update its `settings.json` f
 
 Once this is ready, just prompt claude as you would. It will log all the events into the folder configured in your script. The events are logged into numbered files representing the thought process of the model. 
 
-{{< figure src="/images/stamps/ai-session-obsidian.png" alt="AI Session visualization">}}
+{{< figure src="/images/ai-session-obsidian.png" alt="AI Session visualization">}}
 
 You can now see the visual representation of all the steps as to how the model arrived at the final result. You can also go sequentially through the files to understand them and see how the graph builds up.
 
 And here is the final todo app:
 
-{{< figure src="/images/stamps/todo-app.png" alt="AI Session visualization">}}
+{{< figure src="/images/todo-app.png" alt="AI Session visualization">}}
 
 There may be other uses of keeping your session history around, but at least you have them now in an easily visualizable way !
