@@ -19,7 +19,7 @@ Before you start prompting Claude, you will have to update its `settings.json` f
         "UserPromptSubmit": [{ "hooks": [{ "type": "command", "command": "python3 ~/.claude/obsidian-tracker/log_event.py prompt" }] }], 
         "PreToolUse": [{ "matcher": "mcp__.*", "hooks": [{ "type": "command", "command": "python3 ~/.claude/obsidian-tracker/log_event.py tool_call" }] }],
         "PostToolUse": [{ "matcher": "mcp__.*", "hooks": [{ "type": "command", "command": "python3 ~/.claude/obsidian-tracker/log_event.py result" }] }]
-  }
+}
 {{< / highlight >}}
 
 Once this is ready, just prompt claude as you would. It will log all the events into the folder configured in your script. The events are logged into numbered files representing the thought process of the model. 
@@ -32,4 +32,4 @@ And here is the final todo app:
 
 {{< figure src="/images/todo-app.png" alt="AI Session visualization">}}
 
-There may be other uses of keeping your session history around, but at least you have them now in an easily visualizable way !
+There may be other uses of keeping your session history around, but at least now you have them in an easy visualizable format !
