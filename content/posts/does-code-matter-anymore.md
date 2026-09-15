@@ -1,7 +1,7 @@
 ---
 title: "Does code matter anymore ?"
 date: 2026-09-14
-draft: true
+draft: false
 tags: ["musings", "tech", "human-created"]
 ---
 
