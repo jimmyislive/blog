@@ -11,6 +11,8 @@ layout: single
 ---
 Some of the books I have recently read. (Items marked with a :thumbsup: are ones that I really enjoyed.)
 
+* [The Code Breaker - Walter Isaacson](https://www.amazon.com/dp/1982115866) - 10/2026 (:thumbsup:)
+
 * [Together - Vivek Murthy](https://www.amazon.com/Together-Healing-Connection-Sometimes-Lonely/dp/0062913301/) - 07/2026 (:thumbsup:)
 
 * [Brave New World - Aldous Huxley](https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523) - 05/2026 (:thumbsup:)
